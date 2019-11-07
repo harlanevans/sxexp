@@ -36,6 +36,7 @@ a:active {
   color: black;
   background-color: transparent;
   transition: .5s;
+  outline: 0;
 }
 
 .button:hover {
@@ -66,6 +67,10 @@ a:active {
   color: white;
   background-color: black;
   transition: .5s;
+}
+
+.button-white:focus, .button:focus, .button-two:focus {
+  outline: 0;
 }
 
 
@@ -126,7 +131,7 @@ a:active {
 }
 
 .nav-logo {
-  width: 50%;
+  width: 70%;
   height: 100%;
 }
 
@@ -266,6 +271,7 @@ a:active {
   justify-content: space-evenly;
   width: 100%;
   padding: 0em 10em;
+  height: 100%;
 }
 
 .main-row-two {
@@ -360,15 +366,18 @@ span {
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  padding: 0em 10em;
+  padding: 0em 5em;
+  height: 100%;
 }
 
 .inside-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 0;
   width: 100%;
 }
+
 /* .inside-row-two {
   display: flex;
   flex-direction: row;
@@ -376,25 +385,110 @@ span {
   width: 100%;
 } */
 
-.c-col-one, .c-col-two {
+.c-col-one,
+.c-col-two {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
+  padding: 3em 1em;
   flex: 50%;
   height: 100%;
-  width: 100%; 
+  width: 100%;
+}
+
+.input-pad {
+  padding: 1em 0em;
 }
 
 form {
   display: flex;
   flex-direction: column;
+  border: solid 1px rgb(220, 220, 220);
+  padding: 1em 2em;
+  border-radius: 2px;
+  transition: .25s;
+}
 
+form:active,
+form:hover {
+  box-shadow: 1px 1px 4px black;
+  transition: .25s;
+
+}
+
+label {
+  font-family: "Amiri", serif;
+
+  font-size: 1.25em;
+  padding: 0;
+  margin-bottom: 0em !important;
+}
+
+input,
+textarea {
+  width: 100%;
+  font-family: "Lato", sans-serif;
+  padding: .25em;
+}
+
+input[type="text"],
+[type='email'],
+[type='phone'],
+textarea {
+  font-family: "Amiri", serif;
+  border: none;
+  border-bottom: 2px solid #6E323A;
+  outline: 0;
+}
+
+input[type='text']:focus,
+input[type='email']:focus,
+input[type='phone']:focus,
+textarea:focus {
+  background-color: rgb(245, 245, 245);
+  border-radius: 2px;
+}
+
+.but-cont {
+  background-color: transparent;
+  transition: .5s;
+}
+
+.but-cont:hover {
+  color: white;
+  background-color: #6E323A;
+  transition: .5s;
+}
+
+.email {
+  color: black !important;
+  transition: .25s;
+}
+
+.email:hover {
+  color: #6E323A !important;
+  transition: .25s;
+}
+
+.contact-logo {
+  width: 75%;
 }
 
 
 
 
+/*? ------------------------- Book Page ------------------------- */
 
+
+
+.book-image {
+  width: 50%;
+  height: 100;
+}
+
+.book-order-tag {
+  outline: 0;
+}
 /*! ------------------------- Footer ------------------------- */
 
 footer {

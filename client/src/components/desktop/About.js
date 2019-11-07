@@ -17,7 +17,14 @@ const About = () => {
         <Fade duration={2000} delay={500}>
           <div className="main-row">
             <div className="col-one-top row-in-col">
-              <TextWhite>
+              <TextWhite
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  lineHeight: "3em"
+                }}
+                >
                 Van served an LDS church mission in Peru (’79–’81) and is
                 founder of Southern Cross Expeditions. He has led numerous
                 adventure, humanitarian, and archaeological expeditions (he
@@ -39,14 +46,21 @@ const About = () => {
               <img src={VanImageTwo} className="van-img-two" />
             </div>
             <div className="col-one-bottom row-in-col">
-              <TextWhite>
+              <TextWhite
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  lineHeight: "3em"
+                }}
+              >
                 Dr. Evans is Ivy educated, and is known for doing research in
                 Latin America on their nonprofit sectors. He is well respected
                 among his peers in philanthropy and many of these countries
                 elected officials. When he is not traveling or doing clinical
                 psychotherapy, he enjoys preparing for the next triathlon,
                 reading a good book, and spending time with his children and
-                grandaughter.
+                grandchildren.
               </TextWhite>
             </div>
           </div>

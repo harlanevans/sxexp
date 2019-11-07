@@ -1,5 +1,6 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
+import { Fade } from "react-reveal";
 
 import { CTitle, CSubTitle } from "../styles/Styles";
 import "../styles/Desktop.css";
@@ -22,8 +23,10 @@ class CarouselMain extends React.Component {
           />
 
           <Carousel.Caption className="carousel-cap">
-            <CTitle>Hike Machu Pichu</CTitle>
-            <CSubTitle>See the Wonder of the World</CSubTitle>
+            <Fade delay={250} duration={1000}>
+              <CTitle>Hike Machu Pichu</CTitle>
+              <CSubTitle>See the Wonder of the World</CSubTitle>
+            </Fade>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -31,10 +34,12 @@ class CarouselMain extends React.Component {
             src={BOM}
             className="carousel-img bottom-right-animation"
             alt="child"
-          />
+            />
           <Carousel.Caption className="carousel-cap">
+            <Fade delay={250} duration={1000}>
             <CTitle>The History of Christ</CTitle>
             <CSubTitle>Our Savior in Latin America</CSubTitle>
+            </Fade>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -42,10 +47,12 @@ class CarouselMain extends React.Component {
             src={ChildImage}
             className="carousel-img bottom-right-animation"
             alt="child"
-          />
+            />
           <Carousel.Caption className="carousel-cap">
+          <Fade delay={250} duration={1000}>
             <CTitle>Meet the People</CTitle>
             <CSubTitle>New Faces, Old Friendships</CSubTitle>
+            </Fade>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -53,10 +60,12 @@ class CarouselMain extends React.Component {
             src={Ruins}
             className="carousel-img bottom-right-animation"
             alt="child"
-          />
+            />
           <Carousel.Caption className="carousel-cap">
+        <Fade delay={250} duration={1000}>
             <CTitle>Find Ancient Ruins</CTitle>
             <CSubTitle>Explore the Past</CSubTitle>
+            </Fade>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

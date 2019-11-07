@@ -25,7 +25,7 @@ const Footer = () => {
 
         <div className='footer-row'>
           <FooterText>
-            <a type="email" href="mailto: van@southerncrossexp.com" >
+            <a href="mailto: van@southerncrossexp.com" >
               van@southerncrossexp.com
             </a>
           </FooterText>

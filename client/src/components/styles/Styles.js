@@ -33,7 +33,7 @@ export const CSubTitle = styled.h3`
   font-weight: lighter;
   color: white;
   letter-spacing: 4px;
-  text-shadow: 4px 2px 5px black;
+  text-shadow: 3px 2px 2px black;
 `;
 
 export const Title = styled.h3`
@@ -42,8 +42,9 @@ export const Title = styled.h3`
   font-weight: lighter;
   letter-spacing: 4px;
   color: black;
-`;
-export const TitleWhite = styled.h3`
+  text-shadow: 2px 1px 2.5px gray;
+  `;
+  export const TitleWhite = styled.h3`
   font-family: "Amiri", serif;
   font-size: 5em;
   font-weight: lighter;
@@ -57,6 +58,7 @@ export const TitleWhite = styled.h3`
   flex-direction: row;
   justify-content: center;
   padding-bottom: 5%;
+  padding: 1em;
   height: 100%;
   `;
   
@@ -66,6 +68,14 @@ export const TitleWhite = styled.h3`
   letter-spacing: 1px;
   line-height: 2em;
   padding: 1em;
+  text-align: center;
+  color: black;
+`;
+export const ContactText = styled.p`
+font-family: "Lato", sans-serif;
+  font-size: 1.25em;
+  letter-spacing: 1px;
+  padding: 0em;
   text-align: center;
   color: black;
 `;
@@ -92,11 +102,12 @@ export const Button = styled.button`
   font-family: "Amiri", serif;
   font-size: 1.25em;
   background-color: transparent;
-  padding: 0.25em 1em;
+  padding: 0.25em 2em;
   border-radius: 3px;
   border: solid 2px black;
-`;
-export const ButtonWhite = styled.button`
+  outline: 0;
+  `;
+  export const ButtonWhite = styled.button`
   font-family: "Amiri", serif;
   font-size: 1.25em;
   background-color: white;
@@ -104,6 +115,7 @@ export const ButtonWhite = styled.button`
   border-radius: 3px;
   color: black;
   border: solid 2px black;
+  outline: 0;
 `;
 
 export const ButtonCont = styled.div`
