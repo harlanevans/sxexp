@@ -36,14 +36,14 @@ const About = () => {
               </TextWhite>
             </div>
             <div className="col-two row-in-col">
-              <img src={VanImageOne} className="van-img-one" />
+              <img src={VanImageOne} className="van-img-one" alt='van with man'/>
             </div>
           </div>
         </Fade>
         <Fade duration={2000} delay={500}>
           <div className="main-row-two">
             <div className="col-two row-in-col">
-              <img src={VanImageTwo} className="van-img-two" />
+              <img src={VanImageTwo} className="van-img-two" alt='professional van'/>
             </div>
             <div className="col-one-bottom row-in-col">
               <TextWhite

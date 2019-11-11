@@ -15,7 +15,7 @@ const Human = () => {
         </Fade>
         <Fade duration={2000} delay={500}>
         <div className="row img-cont">
-          <img src={Child} className="human-img" />
+          <img src={Child} className="human-img" alt='child'/>
         </div>
         </Fade>
         <Fade duration={2000} delay={500}>
@@ -27,6 +27,7 @@ const Human = () => {
                 href="https://genhu.org/"
                 target="_blank"
                 className="human-link"
+                  rel="noopener noreferrer"
                 >
                 Generations Humanitarian
               </a>{" "}
@@ -53,6 +54,7 @@ const Human = () => {
                 href="https://genhu.org/"
                 target="_blank"
                 className="human-link"
+                  rel="noopener noreferrer"
                 >
                 Generations Humanitarian
               </a>{" "}

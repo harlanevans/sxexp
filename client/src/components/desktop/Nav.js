@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import { NavItem } from "../styles/Styles";
 import "../styles/Desktop.css";
 import  NavLogo  from '../../assets/logos/WhiteLogo.png';
@@ -8,9 +8,9 @@ const Nav = () => {
   return (
     <div className="nav-cont">
       <div className="nav-left">
-      <Link to='/'>
+      <NavLink to='/' className='logo-link'>
         <img src={NavLogo} className="nav-logo" />
-      </Link>
+      </NavLink>
       </div>
       <div className="nav-right">
       <Link to='/book'>

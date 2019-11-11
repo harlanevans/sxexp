@@ -51,7 +51,7 @@ class Contact extends React.Component {
                   </ContactText>
                 </div>
                 <div className="inside-row">
-                  <img src={Logo} className="contact-logo" />
+                  <img src={Logo} className="contact-logo" alt='logo'/>
                 </div>
               </div>
             </Fade>

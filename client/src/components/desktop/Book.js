@@ -24,7 +24,7 @@ const Book = () => {
         </Fade>
         <Fade duration={2000} delay={750}>
         <div className="row img-cont">
-          <img src={PathWay} className="human-img" />
+          <img src={PathWay} className="human-img" alt='house of the lord pathway'/>
         </div>
         </Fade>
         <Fade duration={2000} delay={500}>
@@ -40,7 +40,7 @@ const Book = () => {
         </Fade>
         <Fade duration={2000} delay={500}>
         <ButtonCont>
-          <a href='https://www.amazon.com/' target="_blank" className='book-order-tag'>
+            <a href='https://www.amazon.com/' target="_blank" className='book-order-tag' rel="noopener noreferrer">
           <Button className='button' >Order</Button>
           </a>
         </ButtonCont>

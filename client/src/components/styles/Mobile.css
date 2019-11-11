@@ -1,0 +1,63 @@
+/** -------------------- Nav --------------------  */
+
+.nav-mob-cont {
+  position: fixed;
+  z-index: 100;
+  background-color: black;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+
+.nav-mob-left {
+  display: flex;
+  width: 100%;
+  flex: 75%;
+}
+
+.nav-mob-right {
+  display: flex;
+  width: 100%;
+  flex: 25;
+}
+
+.nav-mob-logo {
+  padding: 1em;
+  max-width: 100%;
+  background-size: contain;
+  height: auto;
+}
+
+.nav-mob-menu {
+  padding: 1.5em;
+  max-width: 100%;
+  height: auto;
+}
+/*? -------------------- Modal --------------------  */
+
+.modal-cont {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5)
+}
+/*! -------------------- Pages --------------------  */
+
+.page-cont {
+  width: 100%;
+  height: 100%;
+}
+
+.page-img-cont {
+  padding: 0em 2em;
+  width: 100%;
+  height: 100%;
+
+}
+
+.page-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  box-shadow: 3px 3px 10px rgb(100, 100, 100);
+}

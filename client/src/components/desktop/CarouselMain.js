@@ -1,10 +1,10 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { Fade } from "react-reveal";
 
 import { CTitle, CSubTitle } from "../styles/Styles";
 import "../styles/Desktop.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 import ChildImage from "../../assets/images/Child.jpg";
 import MachuPichu from "../../assets/images/MachuPichu.jpg";
