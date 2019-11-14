@@ -19,7 +19,7 @@ const CalendarMobile = () => {
         </div>
         <Fade>
           <TextCont style={{paddingTop: '2em'}}>
-            <Text>Probably just loop through events here instead of calendar</Text>
+            <Text>Tour dates coming soon!</Text>
           </TextCont>
         </Fade>
       </div>
