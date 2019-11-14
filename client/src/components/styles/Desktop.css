@@ -409,7 +409,7 @@ span {
 form {
   display: flex;
   flex-direction: column;
-  border: solid 1px rgb(220, 220, 220);
+  border: solid 1px rgb(15, 6, 6);
   padding: 1em 2em;
   border-radius: 2px;
   transition: .25s;

@@ -1,8 +1,7 @@
 import React from "react";
 import { Fade } from 'react-reveal'
 import { Carousel } from "react-bootstrap";
-import { QuoteAuth, QuoteText, RedBackground } from "../styles/Styles";
-import Image from "../../assets/images/Beach.jpg";
+import { QuoteAuth, QuoteText, RedBackground } from "../../styles/Styles";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 class Quote extends React.Component {

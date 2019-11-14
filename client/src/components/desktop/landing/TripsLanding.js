@@ -2,7 +2,7 @@ import React from 'react';
 import { Fade } from "react-reveal";
 import { Link } from 'react-router-dom';
 
-import { Title, TitleCont, Text, TextCont, Button, ButtonCont} from "../styles/Styles";
+import { Title, TitleCont, Text, TextCont, Button, ButtonCont} from "../../styles/Styles";
 
 const TripsLanding = () => {
   return (

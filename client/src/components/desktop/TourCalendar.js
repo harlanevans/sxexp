@@ -82,8 +82,22 @@ const TourCalendar = props => {
           titleAccessor="location"
           defaultView="month"
           showMultiDayTimes
+          eventPropGetter={(event, start, end, isSelected) => {
+            let newStyle = {
+              backgroundColor: "lightgrey",
+              color: 'white',
+              borderRadius: "0px",
+              border: "none"
+            };
+
+            return {
+              className: "",
+              style: newStyle
+            };
+          }}
         />
       </Paper>
+      <Footer />
     </div>
   );
 };

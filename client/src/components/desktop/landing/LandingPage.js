@@ -1,12 +1,12 @@
 import React from 'react';
-import ScrollToTop from '../../ScrollToTop';
+import ScrollToTop from '../../../ScrollToTop';
 
 import Carousel from './CarouselMain';
 import BookLanding from './BookLanding'
 import TripsLanding from './TripsLanding';
 import Testimonials from './Testimonials';
 import Quote from './Quote';
-import Footer from './Footer';
+import Footer from '../Footer';
 
 import { Fade } from "react-reveal";
 

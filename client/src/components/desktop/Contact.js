@@ -94,7 +94,7 @@ class Contact extends React.Component {
                       <Button className="but-cont">Submit</Button>
                     </div>
                   </form>
-                </div>
+                </div> 
               </div>
             </Fade>
           </div>

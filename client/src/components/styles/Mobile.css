@@ -1,3 +1,31 @@
+/*** Center on page css ***/
+
+.row-mob {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.col-mob {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.padding-mob {
+  padding: 1em;
+}
+
+.comp-padding {
+  padding: 4em 0em;
+}
+
+.new-comp-pad {
+  padding-top: 25%;
+}
+
 /** -------------------- Nav --------------------  */
 
 .nav-mob-cont {
@@ -35,12 +63,52 @@
   max-width: 100%;
   height: auto;
 }
+
 /*? -------------------- Modal --------------------  */
 
-.modal-cont {
+.modal-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.9);
+  /* background-color: rgba(110, 50, 58, 0.9); */
+  /* margin-top: 20%; */
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5)
+  width: 100%;
+  z-index: 4000;
+  position: fixed !important;
 }
+
+.modal-column {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0em 4em;
+  width: 100%;
+}
+
+.modal-button-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: .75em;
+  width: 100%;
+}
+
+.modal-icon {
+  width: 2.5em;
+  border-radius: 5px;
+}
+
+.modal-icon-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+
 /*! -------------------- Pages --------------------  */
 
 .page-cont {
@@ -58,6 +126,63 @@
 .page-img {
   width: 100%;
   height: 100%;
-  border-radius: 3px;
+  border-radius: 2px;
   box-shadow: 3px 3px 10px rgb(100, 100, 100);
+}
+
+/*? ------------------------- Quote Carousel ------------------------- */
+
+.quote-text-mob {
+  height: 100%;
+  width: 100%;
+  padding: 2em 1em;
+}
+
+
+/*! -------------------- Form --------------------  */
+
+.form-mob {
+  display: flex;
+  flex-direction: column;
+  /* border: solid 1px rgb(15, 6, 6); */
+  padding: 1em 2em;
+  border-radius: 2px;
+  transition: .25s;
+  border: none;
+}
+
+.contact-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+  width: 100%;
+}
+
+/*! -------------------- Footer --------------------  */
+
+footer {
+  width: 100%;
+  overflow: hidden;
+  background-color: black;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em 1em;
+  bottom: 0;
+}
+
+.footer-col {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }

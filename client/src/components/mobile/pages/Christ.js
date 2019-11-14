@@ -7,24 +7,25 @@ import {
   SubTitle
 } from "../../styles/MobStyles";
 import { Fade } from "react-reveal";
-import Machu from "../../../assets/images/MachuPichu.jpg";
 
-const Welcome = () => {
+import BOM from "../../../assets/images/BOM.jpg";
+
+const Christ = () => {
   return (
     <div className="page-cont">
       <Fade duration={2000}>
         <TitleCont>
-          <Title>Welcome to Southern Cross Expeditions</Title>
+          <Title>The History of Christ</Title>
         </TitleCont>
       </Fade>
       <Fade duration={2000}>
         <div className="page-img-cont">
-          <img src={Machu} className="page-img" />
+          <img src={BOM} className="page-img" />
         </div>
       </Fade>
       <Fade duration={2000}>
         <TitleCont>
-          <SubTitle>Hike Machu Pichu</SubTitle>
+          <SubTitle>Our Savior in Latin America</SubTitle>
         </TitleCont>
       </Fade>
       <Fade duration={2000}>
@@ -40,4 +41,4 @@ const Welcome = () => {
   );
 };
 
-export default Welcome;
+export default Christ;

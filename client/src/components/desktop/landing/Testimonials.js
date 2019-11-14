@@ -11,7 +11,7 @@ import {
   ButtonWhite,
   ButtonCont,
   QuoteAuth
-} from "../styles/Styles";
+} from "../../styles/Styles";
 
 const Testimonials = () => {
   return (

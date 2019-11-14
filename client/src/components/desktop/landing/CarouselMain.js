@@ -3,13 +3,13 @@ import { Carousel } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Fade } from "react-reveal";
 
-import { CTitle, CSubTitle } from "../styles/Styles";
-import "../styles/Desktop.css";
+import { CTitle, CSubTitle } from "../../styles/Styles";
+import "../../styles/Desktop.css";
 
-import ChildImage from "../../assets/images/Child.jpg";
-import MachuPichu from "../../assets/images/MachuPichu.jpg";
-import BOM from "../../assets/images/BOM.jpg";
-import Ruins from "../../assets/images/Ruins.jpg";
+import ChildImage from "../../../assets/images/Child.jpg";
+import MachuPichu from "../../../assets/images/MachuPichu.jpg";
+import BOM from "../../../assets/images/BOM.jpg";
+import Ruins from "../../../assets/images/Ruins.jpg";
 
 class CarouselMain extends React.Component {
   render() {

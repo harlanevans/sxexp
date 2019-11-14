@@ -7,24 +7,25 @@ import {
   SubTitle
 } from "../../styles/MobStyles";
 import { Fade } from "react-reveal";
-import Machu from "../../../assets/images/MachuPichu.jpg";
 
-const Welcome = () => {
+import Child from "../../../assets/images/Child.jpg";
+
+const MeetPeople = () => {
   return (
     <div className="page-cont">
       <Fade duration={2000}>
         <TitleCont>
-          <Title>Welcome to Southern Cross Expeditions</Title>
+          <Title> Meet the People</Title>
         </TitleCont>
       </Fade>
       <Fade duration={2000}>
         <div className="page-img-cont">
-          <img src={Machu} className="page-img" />
+          <img src={Child} className="page-img" />
         </div>
       </Fade>
       <Fade duration={2000}>
         <TitleCont>
-          <SubTitle>Hike Machu Pichu</SubTitle>
+          <SubTitle>New Faces, Old Friendships</SubTitle>
         </TitleCont>
       </Fade>
       <Fade duration={2000}>
@@ -40,4 +41,4 @@ const Welcome = () => {
   );
 };
 
-export default Welcome;
+export default MeetPeople;
