@@ -9,6 +9,8 @@ import {
 import Footer from "./Footer";
 import { Fade } from "react-reveal";
 import Logo from "../../assets/logos/ColorLogo.png";
+import axios from "axios";
+
 
 class Contact extends React.Component {
   state = { name: "", email: "", phone: "", questions: "" };
@@ -16,6 +18,19 @@ class Contact extends React.Component {
   handleChange = e => {
     const { name, value } = e.target;
     this.setState({ [name]: value });
+  };
+
+  handleSubmit = e => {
+    e.preventDefault();
+    const contact = this.state;
+    axios
+      .post("/api/contact", { contact })
+      .then(res => {
+        console.log("it worked");
+      })
+      .catch(res => {
+        console.log(res);
+      });
   };
   render() {
     const { name, email, phone, questions } = this.state;
@@ -51,14 +66,14 @@ class Contact extends React.Component {
                   </ContactText>
                 </div>
                 <div className="inside-row">
-                  <img src={Logo} className="contact-logo" alt='logo'/>
+                  <img src={Logo} className="contact-logo" alt="logo" />
                 </div>
               </div>
             </Fade>
             <Fade duration={2000} delay={500}>
               <div className="c-col-two">
                 <div className="inside-row-two">
-                  <form>
+                  <form onSubmit={this.handleSubmit}>
                     <label>Name</label>
                     <div className="input-pad">
                       <input
@@ -88,13 +103,19 @@ class Contact extends React.Component {
                     </div>
                     <label>Questions</label>
                     <div className="input-pad">
-                      <textarea />
+                      <textarea
+                        name="questions"
+                        value={questions}
+                        type="text"
+                        onChange={this.handleChange}
+                        wrap="hard"
+                      />
                     </div>
                     <div>
                       <Button className="but-cont">Submit</Button>
                     </div>
                   </form>
-                </div> 
+                </div>
               </div>
             </Fade>
           </div>
