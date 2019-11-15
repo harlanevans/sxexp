@@ -5,9 +5,6 @@ class ContactsMailer < ApplicationMailer
 require 'sendgrid-ruby'
 include SendGrid
 
-# Sendgrid API KEY
-# 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
-
 def contact_user(name, email, phone, questions)
   # This is the email that the user inputs
   from = Email.new(email: email)
