@@ -1,3 +1,7 @@
+// import { Title, TitleCont, TextCont, Text } from "../styles/Styles";
+// import { Fade } from "react-reveal";
+// import Hat from '../../assets/images/Hat.jpg';
+// import Footer from './Footer';
 
 
 // const Calendar = () => {
