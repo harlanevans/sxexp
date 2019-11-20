@@ -73,9 +73,14 @@ const TourCalendar = props => {
   }
 
   return (
-    <div style={{ paddingTop: "80px" }}>
+    <div style={{ paddingTop: "0em" }}>
       {testFunc()}
       <Paper className={classes.paper} >
+      <Fade duration={2000} top>
+        <TitleCont>
+          <Title>LDS Interest Trips</Title>
+        </TitleCont>
+      </Fade>
         <Calendar
           className={classes.calendar}
           selectable

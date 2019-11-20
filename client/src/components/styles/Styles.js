@@ -67,10 +67,21 @@ export const Title = styled.h3`
   font-size: 1.25em;
   letter-spacing: 1px;
   line-height: 2em;
-  padding: 1em;
+  padding: 0em;
   text-align: center;
   color: black;
 `;
+
+  export const PictureText = styled.p`
+  font-family: "Lato", sans-serif;
+  font-size: 1em;
+  letter-spacing: 1px;
+  line-height: 2em;
+  padding: 0em;
+  text-align: center;
+  color: black;
+`;
+
 export const ContactText = styled.p`
 font-family: "Lato", sans-serif;
   font-size: 1.25em;
@@ -147,7 +158,7 @@ export const ButtonCont = styled.div`
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  padding: 1em;
+  padding: 2em;
 `;
 
 export const RedBackground = styled.div`
