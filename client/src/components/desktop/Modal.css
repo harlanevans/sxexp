@@ -1,0 +1,28 @@
+.modal-cont {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  overflow: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding: 2em;
+}
+
+.modal-col {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}

@@ -74,7 +74,7 @@ export const Title = styled.h3`
 export const ContactText = styled.p`
 font-family: "Lato", sans-serif;
   font-size: 1.25em;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   padding: 0em;
   text-align: center;
   color: black;
@@ -89,14 +89,38 @@ export const TextWhite = styled.p`
   color: white;
   text-shadow: 2px 1px 5px black;
   padding-top: 1em;
-`;
-
-export const TextCont = styled.div`
+  `;
+  
+  export const TextCont = styled.div`
   padding: 1em 10em;
   display: flex;
   flex-direction: row;
   justify-content: center;
-`;
+  `;
+  
+  export const ModalText = styled.p`
+  font-family: "Lato", sans-serif;
+  font-size: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  letter-spacing: 5px;
+  text-shadow: 2px 1px 5px black;
+  padding-top: 1em;
+`
+
+export const ModalButton = styled.button`
+font-family: "Amiri", serif;
+font-size: 1.25em;
+background-color: white;
+padding: 0.25em 1em;
+border-radius: 3px;
+color: black;
+border: solid 2px black;
+outline: 0;
+`
 
 export const Button = styled.button`
   font-family: "Amiri", serif;

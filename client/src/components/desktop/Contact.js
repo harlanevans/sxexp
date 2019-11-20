@@ -7,35 +7,55 @@ import {
   ContactText
 } from "../styles/Styles";
 import Footer from "./Footer";
+import SubmitModal from './SubmitModal';
 import { Fade } from "react-reveal";
 import Logo from "../../assets/logos/ColorLogo.png";
 import axios from "axios";
 
-
 class Contact extends React.Component {
-  state = { name: "", email: "", phone: "", questions: "" };
+  state = {
+    name: "",
+    email: "",
+    phone: "",
+    questions: "",
+    formSubmitted: false
+  };
 
   handleChange = e => {
     const { name, value } = e.target;
     this.setState({ [name]: value });
   };
 
+  toggleModal = () => {
+    this.setState({ formSubmitted: !this.state.formSubmitted });
+  }
+
+  resetValues = () => {
+    this.setState({name: '', email: '', phone: '', questions: ''})
+  }
+
   handleSubmit = e => {
     e.preventDefault();
-    const contact = this.state;
+    const contact = { ...this.state };
+    delete contact.formSubmitted;
     axios
       .post("/api/contact", { contact })
       .then(res => {
-        console.log("it worked");
+        this.toggleModal();
+      })
+      .then(res => {
+        this.resetValues();
       })
       .catch(res => {
-        console.log(res);
-      });
+          console.log(res);
+        });
   };
   render() {
-    const { name, email, phone, questions } = this.state;
+    const { name, email, phone, questions, formSubmitted } = this.state;
     return (
+      
       <div>
+       
         <div className="comp-cont-small">
           <Fade duration={2000} top>
             <TitleCont>
@@ -45,6 +65,7 @@ class Contact extends React.Component {
 
           <div className="contact-row">
             <Fade duration={2000} delay={500}>
+              <div className="c-col-one-cont">
               <div className="c-col-one">
                 <div className="inside-row">
                   <ContactText>Southern Cross Expeditions</ContactText>
@@ -65,6 +86,7 @@ class Contact extends React.Component {
                     </a>
                   </ContactText>
                 </div>
+                </div>
                 {/* Logo */}
                 {/* <div className="inside-row">
                   <img src={Logo} className="contact-logo" alt="logo" />
@@ -82,7 +104,8 @@ class Contact extends React.Component {
                         value={name}
                         type="text"
                         onChange={this.handleChange}
-                      />
+                        required
+                        />
                     </div>
                     <label>Email</label>
                     <div className="input-pad">
@@ -91,7 +114,8 @@ class Contact extends React.Component {
                         value={email}
                         type="email"
                         onChange={this.handleChange}
-                      />
+                        required
+                        />
                     </div>
                     <label>Phone</label>
                     <div className="input-pad">
@@ -100,7 +124,8 @@ class Contact extends React.Component {
                         value={phone}
                         type="phone"
                         onChange={this.handleChange}
-                      />
+                        required
+                        />
                     </div>
                     <label>Questions</label>
                     <div className="input-pad">
@@ -120,6 +145,7 @@ class Contact extends React.Component {
               </div>
             </Fade>
           </div>
+          <SubmitModal formSubmitted={this.state.formSubmitted} toggleModal={this.toggleModal}/>
         </div>
         <Footer />
       </div>

@@ -52,6 +52,7 @@ const useStyles = makeStyles(theme => ({
   },
   calendar: {
     minHeight: "60rem",
+    color: 'blue'
   }
 }));
 
@@ -88,12 +89,17 @@ const TourCalendar = props => {
           showMultiDayTimes
           eventPropGetter={(event, start, end, isSelected) => {
             let newStyle = {
-              backgroundColor: "lightgrey",
+              backgroundColor: "#6E323A",
               color: 'white',
               borderRadius: "0px",
-              border: "none"
-            };
-
+              border: "none",
+              fontFamily: '"Amiri", serif',
+              fontSize: '1.25em',
+              padding: '.5em',
+              letterSpacing: '3px',
+      
+                  };
+      
             return {
               className: "",
               style: newStyle
