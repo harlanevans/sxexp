@@ -6,10 +6,10 @@ import { Fade } from "react-reveal";
 import { CTitle, CSubTitle } from "../../styles/Styles";
 import "../../styles/Desktop.css";
 
-import ChildImage from "../../../assets/images/Child.jpg";
-import MachuPichu from "../../../assets/images/MachuPichu.jpg";
-import BOM from "../../../assets/images/BOM.jpg";
-import Ruins from "../../../assets/images/Ruins.jpg";
+import Women from "../../../assets/images/Uroswomen.jpg";
+import MachuPichu from "../../../assets/images/mapiFAVE.jpg";
+import Galapagos from "../../../assets/images/GalápagosEcuador.jpg";
+import Yanantin from "../../../assets/images/Yanantin.jpg";
 
 class CarouselMain extends React.Component {
   render() {
@@ -24,47 +24,52 @@ class CarouselMain extends React.Component {
 
           <Carousel.Caption className="carousel-cap">
             <Fade delay={250} duration={1000}>
-              <CTitle>Hike Machu Pichu</CTitle>
-              <CSubTitle>See the Wonder of the World</CSubTitle>
+              <CTitle>Mystic Machu Pichu</CTitle>
+              <CSubTitle>Just the beginning of the wonders...</CSubTitle>
             </Fade>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
-            src={BOM}
+            src={Women}
             className="carousel-img bottom-right-animation"
             alt="child"
-            />
+          />
           <Carousel.Caption className="carousel-cap">
             <Fade delay={250} duration={1000}>
-            <CTitle>The History of Christ</CTitle>
-            <CSubTitle>Our Savior in Latin America</CSubTitle>
+              <CTitle>Join us in 2020</CTitle>
+              <CSubTitle>
+                Our Peruvian expeditions connects you to the people unlike any
+                other offered today
+              </CSubTitle>
             </Fade>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
-            src={ChildImage}
+            src={Galapagos}
             className="carousel-img bottom-right-animation"
             alt="child"
-            />
+          />
           <Carousel.Caption className="carousel-cap">
-          <Fade delay={250} duration={1000}>
-            <CTitle>Meet the People</CTitle>
-            <CSubTitle>New Faces, Old Friendships</CSubTitle>
+            <Fade delay={250} duration={1000}>
+              <CTitle>Galápagos & Ecuador 2020</CTitle>
+              <CSubTitle>
+                Play tag with sea lions. Stay in charming Otavalo.
+              </CSubTitle>
             </Fade>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
-            src={Ruins}
+            src={Yanantin}
             className="carousel-img bottom-right-animation"
             alt="child"
-            />
+          />
           <Carousel.Caption className="carousel-cap">
-        <Fade delay={250} duration={1000}>
-            <CTitle>Find Ancient Ruins</CTitle>
-            <CSubTitle>Explore the Past</CSubTitle>
+            <Fade delay={250} duration={1000}>
+              <CTitle>Ancient Andean Prayer Circle</CTitle>
+              <CSubTitle>Join an LDS Interest tour in 2020</CSubTitle>
             </Fade>
           </Carousel.Caption>
         </Carousel.Item>

@@ -165,7 +165,7 @@ export const QuoteAuth = styled.h3`
   text-decoration: italics;
   text-align: center;
   font-weight: 100;
-  font-size: 2em;
+  font-size: 1.25em;
   letter-spacing: 4px;
   color: white;
   text-shadow: 4px 2px 5px black;
@@ -176,7 +176,7 @@ export const QuoteText = styled.h4`
   text-align: center;
   font-weight: 100;
   letter-spacing: 4px;
-  font-size: 2em;
+  font-size: 1.25em;
   color: white;
   text-shadow: 4px 2px 5px black;
 `;

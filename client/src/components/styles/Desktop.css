@@ -261,11 +261,73 @@ a:active {
   }
 }
 
+/*! ------------------------- Book Landing ------------------------- */
+
+
+.book-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+}
+
+.flex-col {
+  flex: 25%;
+}
+
+.book-col-one,
+.book-col-two {
+  width: 100%;
+  padding: 1em 2em;
+  flex: 50%;
+}
+
+.book-col-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 2em 4em;
+}
+
+.book-col-two {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 2em 0em;
+}
+
+.book-img-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.book-cover-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+  box-shadow: .5px 1px 3px black;
+}
+
+.book-text-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+
+
 /*? ------------------------- Quote Carousel ------------------------- */
 
 .quote-text {
-  height: 100%;
-  padding: 5em 10em;
+  height: 25vh;
+  padding: 1em 5em;
 }
 
 /** ------------------------- About Van Page ------------------------- */
@@ -357,7 +419,7 @@ a.human-link {
 }
 
 span {
-  color: #6E323A;
+  color: white;
   padding: 0;
   margin: 0;
   font-style: oblique;
@@ -402,8 +464,9 @@ span {
   justify-content: flex-end;
   height: 100%;
   padding: 3em 0em 3em 5em;
-  
+
 }
+
 .c-col-two {
   flex: 50%;
   display: flex;
