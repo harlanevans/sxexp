@@ -10,7 +10,7 @@ class Quote extends React.Component {
       <RedBackground>
         <Carousel
           indicators={false}
-          interval={5000}
+          interval={4000}
           pauseOnHover={false}
           controls={false}
           fade
@@ -51,15 +51,59 @@ class Quote extends React.Component {
               </div>
             </Fade>
           </Carousel.Item>
-          {/* <Carousel.Item>
-            <Carousel.Caption>
-              <QuoteText>
-              Travel makes one modest. You see what a tiny place you occupy in
-                the world.
-                </QuoteText>
-              <QuoteAuth>Gustav Flaubert</QuoteAuth>
-            </Carousel.Caption>
-          </Carousel.Item> */}
+          <Carousel.Item>
+            <Fade delay={500} duration={2000}>
+              <div className="quote-text">
+                <div className="col">
+                  <div className="row padding">
+                    <QuoteText>
+                      <span>&#8216;</span>The world is a book and those who do
+                      not travel read only one page.
+                      <span>&#8217;</span>{" "}
+                    </QuoteText>
+                  </div>
+                  <div className="row">
+                    <QuoteAuth>- St. Augustine</QuoteAuth>
+                  </div>
+                </div>
+              </div>
+            </Fade>
+          </Carousel.Item>
+          <Carousel.Item>
+            <Fade delay={500} duration={2000}>
+              <div className="quote-text">
+                <div className="col">
+                  <div className="row padding">
+                    <QuoteText>
+                      <span>&#8216;</span>A journey of a thousand miles must
+                      begin with a single step.
+                      <span>&#8217;</span>{" "}
+                    </QuoteText>
+                  </div>
+                  <div className="row">
+                    <QuoteAuth>- Lao Tzu</QuoteAuth>
+                  </div>
+                </div>
+              </div>
+            </Fade>
+          </Carousel.Item>
+          <Carousel.Item>
+            <Fade delay={500} duration={2000}>
+              <div className="quote-text">
+                <div className="col">
+                  <div className="row padding">
+                    <QuoteText>
+                      <span>&#8216;</span>Not all those who wander are lost.
+                      <span>&#8217;</span>{" "}
+                    </QuoteText>
+                  </div>
+                  <div className="row">
+                    <QuoteAuth>- J. R. R. Tolkien</QuoteAuth>
+                  </div>
+                </div>
+              </div>
+            </Fade>
+          </Carousel.Item>
         </Carousel>
       </RedBackground>
     );
