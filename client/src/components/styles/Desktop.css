@@ -416,6 +416,12 @@ a.human-link {
   padding: 0;
   margin: 0;
   font-style: oblique;
+  transition: .25s;
+}
+
+a.human-link:hover {
+  color: #6E323A !important;
+  transition: .25s;
 }
 
 span {
@@ -423,6 +429,11 @@ span {
   padding: 0;
   margin: 0;
   font-style: oblique;
+}
+
+span.human-stat {
+  color: #6E323A;
+  color: green !important;
 }
 
 

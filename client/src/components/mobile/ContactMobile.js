@@ -16,7 +16,7 @@ class ContactMobile extends React.Component {
     const { name, email, phone, questions } = this.state;
     return (
       <div>
-        <div className="new-comp-pad">
+        <div className="new-comp-pad" style={{ paddingTop: "35%", paddingBottom: "15%" }}>
           <Fade>
             <TitleCont>
               <Title>Contact Us</Title>

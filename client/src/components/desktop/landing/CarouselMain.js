@@ -8,7 +8,7 @@ import "../../styles/Desktop.css";
 
 import Women from "../../../assets/images/Uroswomen.jpg";
 import MachuPichu from "../../../assets/images/mapiFAVE.jpg";
-import Galapagos from "../../../assets/images/GalápagosEcuador.jpg";
+import Galapagos from "../../../assets/images/GalapagosEcuador.jpg";
 import Yanantin from "../../../assets/images/Yanantin.jpg";
 
 class CarouselMain extends React.Component {

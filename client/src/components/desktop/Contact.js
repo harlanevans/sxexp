@@ -48,6 +48,7 @@ class Contact extends React.Component {
       })
       .catch(res => {
           console.log(res);
+          alert("Unable to process request")
         });
   };
   render() {

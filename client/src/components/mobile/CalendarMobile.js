@@ -8,7 +8,10 @@ import Image from "../../assets/images/Hat.jpg";
 const CalendarMobile = () => {
   return (
     <div>
-    <div className="new-comp-pad">
+      <div
+        className="new-comp-pad"
+        style={{ paddingTop: "35%", paddingBottom: "15%" }}
+      >
         <Fade>
           <TitleCont>
             <Title>Tour Dates</Title>
@@ -18,7 +21,7 @@ const CalendarMobile = () => {
           <img src={Image} className="page-img" />
         </div>
         <Fade>
-          <TextCont style={{paddingTop: '2em'}}>
+          <TextCont style={{ paddingTop: "2em" }}>
             <Text>Tour dates coming soon!</Text>
           </TextCont>
         </Fade>

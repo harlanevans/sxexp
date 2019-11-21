@@ -1,9 +1,9 @@
 import React from "react";
 
 import Welcome from './Welcome';
-import Christ from './Christ';
-import MeetPeople from './MeetPeople';
-import Ruins from './Ruins';
+import Women from './Women';
+import Lizard from './Lizard';
+import Prayer from './Prayer';
 import ScrollToTop from "../../../ScrollToTop";
 
 
@@ -13,10 +13,10 @@ const Page = () => {
     <div style={{paddingTop: '25%'}}>
     <ScrollToTop>
       <Welcome />
+      <Women />
+      <Lizard />
+      <Prayer />
     </ScrollToTop>
-      <Christ />
-      <MeetPeople />
-      <Ruins />
     </div>
   );
 };

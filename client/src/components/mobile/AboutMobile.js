@@ -8,7 +8,7 @@ import Footer from "./FooterMob";
 const AboutMobile = () => {
   return (
     <div>
-      <div className="new-comp-pad">
+      <div className="new-comp-pad" style={{ paddingTop: "35%", paddingBottom: "15%" }}>
         <Fade duration={2000}>
           <TitleCont>
             <Title>Dr. Van C Evans</Title>

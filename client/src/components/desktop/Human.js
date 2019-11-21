@@ -33,9 +33,9 @@ const Human = () => {
               </a>{" "}
               (2008). Generations Humanitiarian builds and operates orphanages
               and drop-in centers for street children in Latin America. As of
-              June 2018, they have helped rear more than <span>1494</span>{" "}
+              June 2018, they have helped rear more than <span className='human-stat'>1494</span>{" "}
               children, feeding more than 15,000 meals every month to children,
-              for a total of <span>735,822</span> meals to date. Your Book of
+              for a total of <span className='human-stat'>735,822</span> meals to date. Your Book of
               Mormon Interest tour may include a stop at one of our orphanages
               just outside of Cusco, Peru. Each trip to Peru, Colombia, or
               Ecuador includes a humanitairn element of taking down suitcases of

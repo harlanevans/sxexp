@@ -8,8 +8,8 @@ import Child from "../../assets/images/Child2.jpeg";
 const HumanMobile = () => {
   return (
     <div>
-      <div className="new-comp-pad">
-        <Fade>
+      <div className="new-comp-pad" style={{ paddingTop: "35%", paddingBottom: "15%" }}>
+        <Fade duration={2000}>
           <TitleCont>
             <Title>Humanitarian Involvement</Title>
           </TitleCont>
@@ -17,7 +17,7 @@ const HumanMobile = () => {
         <div className="page-img-cont">
           <img src={Child} className="page-img" />
         </div>
-        <Fade>
+        <Fade duration={2000}>
           <TextCont style={{ paddingTop: "2em" }}>
             <Text>
               Dr. Evans is also the founder of{" "}

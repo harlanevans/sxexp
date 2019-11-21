@@ -50,8 +50,9 @@ const TripsLanding = () => {
           <Text>
             Call 801-859-1033 or email{" "}
             <a href="mailto: van@southerncrossexp.com" className="email">
-              van@southerncrossexp.com for more information.
+              van@southerncrossexp.com 
             </a>
+              for more information.
           </Text>
         </TextCont>
       </Fade>

@@ -2,19 +2,18 @@ import React from "react";
 import {
   Title,
   TitleCont,
-  Text,
-  TextCont,
   SubTitle
 } from "../../styles/MobStyles";
 import { Fade } from "react-reveal";
-import Machu from "../../../assets/images/MachuPichu.jpg";
+import Machu from "../../../assets/images/mapiFAVE.jpg";
 
 const Welcome = () => {
   return (
-    <div className="page-cont">
+    <div className="page-cont" style={{ padding: "6em 0em", boxShadow: "0 4px 8px -8px black"}} id="/">
+  
       <Fade duration={2000}>
         <TitleCont>
-          <Title>Welcome to Southern Cross Expeditions</Title>
+          <Title>Mystic Machu Picchu</Title>
         </TitleCont>
       </Fade>
       <Fade duration={2000}>
@@ -23,18 +22,11 @@ const Welcome = () => {
         </div>
       </Fade>
       <Fade duration={2000}>
-        <TitleCont>
-          <SubTitle>Hike Machu Pichu</SubTitle>
+        <TitleCont style={{padding: '.5em 2em'}}>
+          <SubTitle> 
+          Just the beginning of the wonders...
+          </SubTitle>
         </TitleCont>
-      </Fade>
-      <Fade duration={2000}>
-        <TextCont>
-          <Text>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            commodo, neque et dapibus vulputate, sapien metus sagittis leo, nec
-            accumsan nibh mi nec mauris.
-          </Text>
-        </TextCont>
       </Fade>
     </div>
   );

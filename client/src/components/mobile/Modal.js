@@ -1,6 +1,7 @@
 import React from "react";
 import { ModalButton } from "../styles/MobStyles";
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import Exit from '../../assets/logos/Exit.svg';
 import { Fade } from 'react-reveal';
 
@@ -17,9 +18,9 @@ const Modal = ({ showModal, toggleModal }) => {
         </div>
       </div>
       <div className='modal-button-cont'>
-        <Link to='/'>
+        <HashLink to='/#home'>
           <ModalButton onClick={toggleModal}>Home</ModalButton>
-        </Link>
+        </HashLink>
       </div>
       <div className='modal-button-cont'>
         <Link to='/book'>
