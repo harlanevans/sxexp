@@ -99,7 +99,7 @@ const Book = () => {
             <TextCont>
               <PictureText>
                 The ruins of the Temple of Wiraqocha at Raqch’i. The red circles
-                show were lumbers were inserted and veils hung from them.{" "}
+                show where lumbers were inserted and veils hung from them.{" "}
               </PictureText>
             </TextCont>
           </div>
