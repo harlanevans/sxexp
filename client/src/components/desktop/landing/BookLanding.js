@@ -17,7 +17,7 @@ const BookLanding = () => {
       <div className='flex-col'></div>
       <div className='book-col-one'>
         <div className='book-img-cont'>
-          <img src={BookCover} alt='house of the lord' className='book-cover-img'/>
+          <img src={BookCover} alt='house of the lord' className='book-cover-img' style={style.imgSize}/>
         </div>
       </div>
       <div className='book-col-two'>
@@ -47,3 +47,10 @@ const BookLanding = () => {
 };
 
 export default BookLanding;
+
+const style = {
+  imgSize: {
+    height: "60vh",
+    width: "75%"
+  }
+}
