@@ -10,7 +10,7 @@ class Quote extends React.Component {
       <RedBackground>
         <Carousel
           indicators={false}
-          interval={4000}
+          interval={5000}
           pauseOnHover={false}
           controls={false}
           fade

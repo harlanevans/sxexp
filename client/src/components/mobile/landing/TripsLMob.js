@@ -1,5 +1,5 @@
 import React from 'react';
-import { TitleCont, Title, TextCont, Text, Button, ButtonCont, TanBackground } from '../../styles/MobStyles';
+import { TitleCont, Title, TextCont, Text, Button, ButtonCont } from '../../styles/MobStyles';
 import { Link } from 'react-router-dom';
 
 const TripsLMob = () => {

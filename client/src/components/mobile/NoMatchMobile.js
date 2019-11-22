@@ -18,7 +18,7 @@ const NoMatchMobile = () => {
           </TitleCont>
         </Fade>
         <div className="page-img-cont">
-          <img src={Image} className="page-img" />
+          <img src={Image} className="page-img" alt="no match img"/>
         </div>
         <Fade>
           <TextCont>

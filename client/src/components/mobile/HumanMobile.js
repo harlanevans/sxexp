@@ -8,14 +8,17 @@ import Child from "../../assets/images/Child2.jpeg";
 const HumanMobile = () => {
   return (
     <div>
-      <div className="new-comp-pad" style={{ paddingTop: "35%", paddingBottom: "15%" }}>
+      <div
+        className="new-comp-pad"
+        style={{ paddingTop: "35%", paddingBottom: "15%" }}
+      >
         <Fade duration={2000}>
           <TitleCont>
             <Title>Humanitarian Involvement</Title>
           </TitleCont>
         </Fade>
         <div className="page-img-cont">
-          <img src={Child} className="page-img" />
+          <img src={Child} className="page-img" alt="child" />
         </div>
         <Fade duration={2000}>
           <TextCont style={{ paddingTop: "2em" }}>
@@ -25,6 +28,8 @@ const HumanMobile = () => {
                 href="https://genhu.org/"
                 target="_blank"
                 className="human-link"
+                without
+                rel="noopener noreferrer"
               >
                 {" "}
                 Generations Humanitarian{" "}
@@ -52,6 +57,8 @@ const HumanMobile = () => {
                 href="https://genhu.org/"
                 target="_blank"
                 className="human-link"
+                without
+                rel="noopener noreferrer"
               >
                 {" "}
                 Generations Humanitarian{" "}

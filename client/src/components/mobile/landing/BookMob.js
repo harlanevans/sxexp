@@ -21,7 +21,7 @@ const BookMob = () => {
     </Fade>
     <Fade duration={2000}>
         <div className="page-img-cont">
-        <img src={BookCover} className="page-img" />
+          <img src={BookCover} className="page-img" alt="book cover"/>
         </div>
     </Fade>
     <Fade duration={2000}>

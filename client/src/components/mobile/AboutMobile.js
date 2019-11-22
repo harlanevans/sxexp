@@ -16,7 +16,7 @@ const AboutMobile = () => {
         </Fade>
         <Fade duration={2000}>
           <div className="page-img-cont">
-            <img src={NiceVan} className="page-img" />
+            <img src={NiceVan} className="page-img" alt="van"/>
           </div>
         </Fade>
         <Fade duration={2000}>
@@ -34,7 +34,7 @@ const AboutMobile = () => {
         </Fade>
         <Fade duration={2000}>
           <div className="page-img-cont">
-            <img src={VanMan} className="page-img" />
+            <img src={VanMan} className="page-img" alt="van with man"/>
           </div>
         </Fade>
         <Fade duration={2000}>

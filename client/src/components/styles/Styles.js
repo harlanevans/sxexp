@@ -103,7 +103,7 @@ export const TextWhite = styled.p`
   `;
   
   export const TextCont = styled.div`
-  padding: 1em 10em;
+  padding: 0em 10em;
   display: flex;
   flex-direction: row;
   justify-content: center;

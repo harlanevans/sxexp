@@ -32,19 +32,19 @@ const SubmitModal = ({ formSubmitted, toggleModal }) => {
 
 export default SubmitModal;
 
-const styles = {
-  mainCont: {
-    backgroundColor: "rgba(0, 0, 0, 0.5)",
-    heigth: "100%",
-    width: "100%",
-    backgroundPosition: "center",
-    backgroundSize: "cover",
-    backgroundRepeat: "none",
-    top: "0",
-    left: "0",
-    zIndex: "1000",
-    overflow: "auto",
-    display: "none",
-    position: "fixed"
-  }
-};
+// const styles = {
+//   mainCont: {
+//     backgroundColor: "rgba(0, 0, 0, 0.5)",
+//     heigth: "100%",
+//     width: "100%",
+//     backgroundPosition: "center",
+//     backgroundSize: "cover",
+//     backgroundRepeat: "none",
+//     top: "0",
+//     left: "0",
+//     zIndex: "1000",
+//     overflow: "auto",
+//     display: "none",
+//     position: "fixed"
+//   }
+// };

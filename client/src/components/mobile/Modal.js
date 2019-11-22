@@ -14,7 +14,7 @@ const Modal = ({ showModal, toggleModal }) => {
       <div className='modal-column'>
       <div className='modal-icon-cont'>
         <div className='modal-icon'>
-          <img src={Exit} onClick={toggleModal} />
+              <img src={Exit} onClick={toggleModal} alt="exit"/>
         </div>
       </div>
       <div className='modal-button-cont'>

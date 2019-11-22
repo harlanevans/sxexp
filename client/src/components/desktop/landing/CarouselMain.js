@@ -8,7 +8,7 @@ import "../../styles/Desktop.css";
 
 import Women from "../../../assets/images/Uroswomen.jpg";
 import MachuPichu from "../../../assets/images/mapiFAVE.jpg";
-import Galapagos from "../../../assets/images/GalapagosEcuador.jpg";
+// import Galapagos from "../../../assets/images/GalapagosEcuador.jpg";
 import Yanantin from "../../../assets/images/Yanantin.jpg";
 
 class CarouselMain extends React.Component {
@@ -24,7 +24,7 @@ class CarouselMain extends React.Component {
 
           <Carousel.Caption className="carousel-cap">
             <Fade delay={250} duration={1000}>
-              <CTitle>Mystic Machu Pichu</CTitle>
+              <CTitle>Mystic Machu Picchu</CTitle>
               <CSubTitle>Just the beginning of the wonders...</CSubTitle>
             </Fade>
           </Carousel.Caption>
@@ -39,13 +39,13 @@ class CarouselMain extends React.Component {
             <Fade delay={250} duration={1000}>
               <CTitle>Join us in 2020</CTitle>
               <CSubTitle>
-                Our Peruvian expeditions connects you to the people unlike any
+                Our Peruvian expeditions connect you to the people unlike any
                 other offered today
               </CSubTitle>
             </Fade>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        {/* <Carousel.Item>
           <img
             src={Galapagos}
             className="carousel-img bottom-right-animation"
@@ -59,7 +59,7 @@ class CarouselMain extends React.Component {
               </CSubTitle>
             </Fade>
           </Carousel.Caption>
-        </Carousel.Item>
+        </Carousel.Item> */}
         <Carousel.Item>
           <img
             src={Yanantin}

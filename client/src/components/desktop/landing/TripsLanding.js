@@ -7,7 +7,7 @@ import { Title, TitleCont, Text, TextCont, Button, ButtonCont} from "../../style
 const TripsLanding = () => {
   return (
     <div className="comp-cont-small">
-      <Fade duration={2000} top>
+      <Fade duration={2000}>
         <TitleCont>
           <Title>LDS Interest Trips</Title>
         </TitleCont>
@@ -16,7 +16,7 @@ const TripsLanding = () => {
         <TextCont>
           <Text>
             No one is more qualified to take you on a tour of Peru than Southern
-            Cross Expeditions. After more than 20 years, we have taken more than
+            Cross Expeditions. After more than 22 years, we have taken more than
             600 persons on archaeological, humanitarian, and tourist expeditions
             to Perú, Bolivia, Ecuador, and Colombia. Your tour guide is Van
             Evans, the author of “The House of the Lord” and the only one who
@@ -42,17 +42,18 @@ const TripsLanding = () => {
         </ButtonCont>
       </Fade>
       <Fade duration={2000} delay={500}>
-        <TextCont>
-          <Text>We do custom tours for groups of 10 or more persons.
+        <TextCont style={{ padding: "0" }}>
+          <Text style={{ padding: "0", margin: "0" }}>
+            We do custom tours for groups of 10 or more persons.
           </Text>
         </TextCont>
-        <TextCont>
-          <Text>
+        <TextCont style={{ padding: "0" }}>
+          <Text style={{ padding: "0" }}>
             Call 801-859-1033 or email{" "}
             <a href="mailto: van@southerncrossexp.com" className="email">
-              van@southerncrossexp.com 
-            </a>
-              for more information.
+              van@southerncrossexp.com
+            </a>{" "}
+            for more information.
           </Text>
         </TextCont>
       </Fade>

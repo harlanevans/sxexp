@@ -1,5 +1,5 @@
 import React from "react";
-import { Title, Text, TitleCont, TextCont, Button, ButtonCont, ContactText } from "../styles/MobStyles";
+import { Title, TitleCont, Button, ButtonCont, ContactText } from "../styles/MobStyles";
 import { Fade } from "react-reveal";
 import Footer from "./FooterMob";
 

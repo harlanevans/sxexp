@@ -8,7 +8,7 @@ import VanImageTwo from "../../assets/images/NiceVanPic.jpg";
 const About = () => {
   return (
     <div>
-      <div className="comp-cont-small">
+      <div className="comp-cont">
         <Fade duration={2000} top>
           <TitleCont>
             <Title>Dr. Van C Evans</Title>

@@ -17,12 +17,12 @@ const Testimonials = () => {
   return (
     <TanBackground>
       <div className="comp-cont-small">
-        <Fade duration={2000} top>
+        <Fade duration={2000}>
           <TitleCont>
             <TitleWhite>Testimonials</TitleWhite>
           </TitleCont>
         </Fade>
-        <Fade>
+        <Fade duration={2000}>
           <TextCont>
             <TextWhite>
               '{" "}…Once again we want to express our appreciation for the most
@@ -31,8 +31,8 @@ const Testimonials = () => {
             </TextWhite>
           </TextCont>
         </Fade>
-        <Fade>
-            <QuoteAuth style={{fontSize: '2em'}}>—Ardeth Kapp, Located in Perú</QuoteAuth>
+      <Fade duration={2000}>
+            <QuoteAuth style={{fontSize: '2em'}}>—Ardeth Kapp</QuoteAuth>
         </Fade>
       </div>
     </TanBackground>

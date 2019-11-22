@@ -9,8 +9,11 @@ import Machu from "../../../assets/images/mapiFAVE.jpg";
 
 const Welcome = () => {
   return (
-    <div className="page-cont" style={{ padding: "6em 0em", boxShadow: "0 4px 8px -8px black"}} id="/">
-  
+    <div
+      className="page-cont"
+      style={{ padding: "6em 0em", boxShadow: "0 4px 8px -8px black" }}
+      id="/"
+    >
       <Fade duration={2000}>
         <TitleCont>
           <Title>Mystic Machu Picchu</Title>
@@ -18,14 +21,12 @@ const Welcome = () => {
       </Fade>
       <Fade duration={2000}>
         <div className="page-img-cont">
-          <img src={Machu} className="page-img" />
+          <img src={Machu} className="page-img" alt="machu picchu" />
         </div>
       </Fade>
       <Fade duration={2000}>
-        <TitleCont style={{padding: '.5em 2em'}}>
-          <SubTitle> 
-          Just the beginning of the wonders...
-          </SubTitle>
+        <TitleCont style={{ padding: ".5em 2em" }}>
+          <SubTitle>Just the beginning of the wonders...</SubTitle>
         </TitleCont>
       </Fade>
     </div>

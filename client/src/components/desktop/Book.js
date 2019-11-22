@@ -8,7 +8,6 @@ import Bookcover from "../../assets/images/Bookcover.jpg";
 import Kuti from "../../assets/images/SignofKuti.jpg";
 import Apron from "../../assets/images/Forrdham.jpg";
 
-
 import {
   Title,
   TitleCont,
@@ -22,7 +21,7 @@ import {
 const Book = () => {
   return (
     <div>
-      <div className="comp-cont-small">
+      <div className="comp-cont">
         <Fade duration={2000} top>
           <TitleCont>
             <Title>The House of the Lord</Title>
@@ -121,34 +120,34 @@ const Book = () => {
 
         <Fade duration={2000} delay={500}>
           <div style={style.padding}>
-          <div style={style.imgRow}>
-            <div style={style.flex}>
-              <div className="row img-cont">
-                <img
-                  src={Kuti}
-                  className="human-img"
-                  alt="house of the lord pathway"
-                />
+            <div style={style.imgRow}>
+              <div style={style.flex}>
+                <div className="row img-cont">
+                  <img
+                    src={Kuti}
+                    className="human-img"
+                    alt="house of the lord pathway"
+                  />
+                </div>
+                <TextCont>
+                  <PictureText>The sign of Kuti. </PictureText>
+                </TextCont>
               </div>
-              <TextCont>
-                <PictureText>The sign of Kuti. </PictureText>
-              </TextCont>
-            </div>
-            <div style={style.flex}>
-              <div className="row img-cont">
-                <img
-                  src={Apron}
-                  className="human-img"
-                  alt="house of the lord pathway"
-                />
+              <div style={style.flex}>
+                <div className="row img-cont">
+                  <img
+                    src={Apron}
+                    className="human-img"
+                    alt="house of the lord pathway"
+                  />
+                </div>
+                <TextCont>
+                  <PictureText>
+                    Apron found on a mummy as part of the burial dress.{" "}
+                  </PictureText>
+                </TextCont>
               </div>
-              <TextCont>
-                <PictureText>
-                  Apron found on a mummy as part of the burial dress.{" "}
-                </PictureText>
-              </TextCont>
             </div>
-          </div>
           </div>
         </Fade>
 
@@ -176,12 +175,12 @@ const Book = () => {
         <Fade duration={2000} delay={500}>
           <ButtonCont>
             <a
-              href="https://www.amazon.com/"
+              href="https://www.amazon.com/gp/product/1734276800/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1"
               target="_blank"
               className="book-order-tag"
               rel="noopener noreferrer"
             >
-              <Button className="button">Order</Button>
+              <Button className="button">Order Book</Button>
             </a>
           </ButtonCont>
         </Fade>
@@ -192,6 +191,13 @@ const Book = () => {
 };
 
 export default Book;
+
+// Confirm message if needed to be sent to amazon
+// const confirm = () => {
+//   if (window.confirm("We will send you to Amazon.com. Is that ok?")) {
+//     window.open("exit.html", "Thanks for Visiting!");
+//   }
+// }
 
 const style = {
   padding: {
@@ -208,12 +214,12 @@ const style = {
     flex: "50%",
     height: "70vh"
   },
-  
+
   imgRow: {
-    display: 'flex',
+    display: "flex",
     flexDirection: "row",
     justifyContent: "center",
     width: "100%",
-    padding: "4em 4em",
+    padding: "4em 0em"
   }
 };

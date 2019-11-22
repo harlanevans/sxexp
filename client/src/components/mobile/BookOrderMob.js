@@ -16,7 +16,6 @@ import Apron from "../../assets/images/Forrdham.jpg";
 import Footer from "./FooterMob";
 import { Fade } from "react-reveal";
 import { PictureText } from "../styles/MobStyles";
-import Book from "../desktop/Book";
 
 const BookOrderMob = () => {
   return (
@@ -25,12 +24,15 @@ const BookOrderMob = () => {
         className="page-cont"
         style={{ paddingTop: "35%", paddingBottom: "15%" }}
       >
+      <Fade duration={2000}>
         <TitleCont>
           <Title>The House of the Lord</Title>
         </TitleCont>
+      </Fade>
         {/* <div className="page-img-cont">
         <img src={Pathway} className="page-img" />
       </div> */}
+      <Fade duration={2000}>
         <TextCont style={{ padding: "1em 2em" }}>
           <Text>
             Around 1598, an indigenous priest born in Cusco named Francisco de
@@ -47,14 +49,18 @@ const BookOrderMob = () => {
             Jesus Christ. Maybe that’s what it was” (ch. 4).
           </Text>
         </TextCont>
+      </Fade>
+      <Fade duration={2000}>
         <div>
           <div className="page-img-cont">
-            <img src={Condor} className="page-img" />
+            <img src={Condor} className="page-img" alt="condorman"/>
           </div>
           <TextCont style={{ paddingTop: "0" }}>
             <PictureText>The Angel Moroni carrying the gold plates</PictureText>
           </TextCont>
         </div>
+      </Fade>
+      <Fade duration={2000}>
         <TextCont style={{ padding: "0em 2em" }}>
           <Text>
             This text was translated from Quechua to English for the first time
@@ -67,9 +73,11 @@ const BookOrderMob = () => {
             the sea to Peru, the land of promise.
           </Text>
         </TextCont>
+      </Fade>
         <div>
+      <Fade duration={2000}>
           <div className="page-img-cont">
-            <img src={Raqchi} className="page-img" />
+              <img src={Raqchi} className="page-img" alt="raqchi"/>
           </div>
           <TextCont style={{ paddingTop: "0" }}>
             <PictureText>
@@ -77,7 +85,9 @@ const BookOrderMob = () => {
               show where lumbers were inserted and veils hung from them.
             </PictureText>
           </TextCont>
+      </Fade>
         </div>
+      <Fade duration={2000}>
         <TextCont style={{ padding: "0em 2em" }}>
           <Text>
             More importantly, this book reviews the Incas and ancient Andean's
@@ -89,24 +99,27 @@ const BookOrderMob = () => {
             buried in, and the signs and tokens associated to ancient temples.
           </Text>
         </TextCont>
+      </Fade>
+      <Fade duration={2000}>
         <div>
           <div className="page-img-cont">
-            <img src={Kuti} className="page-img" />
+              <img src={Kuti} className="page-img" alt="kuti"/>
           </div>
           <TextCont style={{ paddingTop: "0" }}>
             <PictureText>The sign of Kuti.</PictureText>
           </TextCont>
-        </div>
-        <div>
           <div className="page-img-cont">
-            <img src={Apron} className="page-img" />
+              <img src={Apron} className="page-img" alt="apron"/>
           </div>
+        <div>
           <TextCont style={{ paddingTop: "0" }}>
             <PictureText>
               Apron found on a mummy as part of the burial dress.
             </PictureText>
           </TextCont>
         </div>
+        </div>
+      </Fade>
         <TextCont style={{ padding: "0em 2em" }}>
           <Text>
             Members of the Church of Jesus Christ of Latter-day Saints will find
@@ -114,10 +127,13 @@ const BookOrderMob = () => {
           </Text>
         </TextCont>
         <div>
+        <Fade duration={2000}>
           <div className="page-img-cont">
-            <img src={Bookcover} className="page-img" />
+              <img src={Bookcover} className="page-img" alt="bookcover" />
           </div>
+        </Fade>
         </div>
+        <Fade duration={2000}>
         <ButtonCont>
           <a
             href="https://www.amazon.com/"
@@ -128,6 +144,7 @@ const BookOrderMob = () => {
             <Button>Order</Button>
           </a>
         </ButtonCont>
+        </Fade>
       </div>
       <Footer />
     </div>

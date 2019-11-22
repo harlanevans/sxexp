@@ -20,13 +20,14 @@ a:active {
 }
 
 .comp-cont {
-  padding: 10em 0em;
-  height: 100vh;
+  padding: 8em 0em;
+  min-height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
 .comp-cont-small {
-  padding: 10em 0em;
+  padding: 2em 0em;
   height: 100%;
   width: 100%;
 
@@ -129,7 +130,7 @@ a:active {
   flex-direction: row;
   justify-content: flex-start;
   width: 100%;
-  flex: 40%;
+  flex: 40%; 
 }
 
 .nav-logo {
@@ -138,7 +139,7 @@ a:active {
 }
 
 .logo-link {
-  width: 50%;
+  width: 60%;
 }
 
 .nav-item {
@@ -273,14 +274,14 @@ a:active {
 }
 
 .flex-col {
-  flex: 25%;
+  flex: 20%;
 }
 
 .book-col-one,
 .book-col-two {
   width: 100%;
   padding: 1em 2em;
-  flex: 50%;
+  flex: 60%;
 }
 
 .book-col-one {

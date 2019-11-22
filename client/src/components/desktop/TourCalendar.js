@@ -48,7 +48,7 @@ import Footer from './Footer';
 
 const useStyles = makeStyles(theme => ({
   paper: {
-    padding: "10rem",
+    padding: "8rem",
   },
   calendar: {
     minHeight: "60rem",

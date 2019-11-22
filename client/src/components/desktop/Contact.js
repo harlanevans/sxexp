@@ -57,7 +57,7 @@ class Contact extends React.Component {
       
       <div>
        
-        <div className="comp-cont-small">
+        <div className="comp-cont">
           <Fade duration={2000} top>
             <TitleCont>
               <Title>Contact Us Today</Title>
