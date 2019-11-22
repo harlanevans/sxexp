@@ -77,7 +77,7 @@ const TourCalendar = props => {
       {testFunc()}
       <Paper className={classes.paper} >
       <Fade duration={2000} top>
-        <TitleCont>
+          <TitleCont style={{ padding: "2em 0em 2em" }}>
           <Title>LDS Interest Trips</Title>
         </TitleCont>
       </Fade>

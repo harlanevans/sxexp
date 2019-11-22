@@ -26,6 +26,14 @@ a:active {
   width: 100%;
 }
 
+.comp-cont-pages {
+  /* padding: 10em 0em; */
+  padding-top: 10%;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+}
+
 .comp-cont-small {
   padding: 2em 0em;
   height: 100%;

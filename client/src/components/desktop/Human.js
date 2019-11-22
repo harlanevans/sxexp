@@ -7,9 +7,9 @@ import Footer from "./Footer";
 const Human = () => {
   return (
     <div>
-      <div className="comp-cont">
+      <div className="comp-cont-pages">
         <Fade duration={2000} top>
-          <TitleCont>
+          <TitleCont style={{ padding: "2em 0em 2em" }}>
             <Title>Humanitarian Involvement</Title>
           </TitleCont>
         </Fade>

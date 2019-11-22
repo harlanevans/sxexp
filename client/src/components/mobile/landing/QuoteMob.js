@@ -10,7 +10,7 @@ class QuoteMob extends React.Component {
       <RedBackground style={{ boxShadow: "0 4px 2px -2px gray" }}>
         <Carousel
           indicators={false}
-          interval={4000}
+          interval={5000}
           pauseOnHover={false}
           controls={false}
           fade
@@ -21,12 +21,12 @@ class QuoteMob extends React.Component {
                 <div className="row-mob">
                   <QuoteText>
                     <span style={{ color: "white", padding: "0px 5px" }}>
-                      &#8216;
+                      &#34;
                     </span>
                     Man cannot discover new oceans unless he has the courage to
                     lose sight of the shore.
                     <span style={{ color: "white", padding: "0px 5px" }}>
-                      &#8217;
+                      &#34;
                     </span>{" "}
                   </QuoteText>
                 </div>
@@ -42,12 +42,12 @@ class QuoteMob extends React.Component {
                 <div className="row-mob">
                   <QuoteText>
                     <span style={{ color: "white", padding: "0px 5px" }}>
-                      &#8216;
+                      &#34;
                     </span>
                     Travel makes one modest. You see what a tiny place you
                     occupy in the world.
                     <span style={{ color: "white", padding: "0px 5px" }}>
-                      &#8217;
+                      &#34;
                     </span>{" "}
                   </QuoteText>
                 </div>
@@ -63,12 +63,12 @@ class QuoteMob extends React.Component {
                 <div className="row-mob">
                   <QuoteText>
                     <span style={{ color: "white", padding: "0px 5px" }}>
-                      &#8216;
+                      &#34;
                     </span>
                     The world is a book and those who do not travel read only
                     one page.
                     <span style={{ color: "white", padding: "0px 5px" }}>
-                      &#8217;
+                      &#34;
                     </span>{" "}
                   </QuoteText>
                 </div>
@@ -84,11 +84,11 @@ class QuoteMob extends React.Component {
                 <div className="row-mob">
                   <QuoteText>
                     <span style={{ color: "white", padding: "0px 5px" }}>
-                      &#8216;
+                      &#34;
                     </span>
                     A journey of a thousand miles must begin with a single step.
                     <span style={{ color: "white", padding: "0px 5px" }}>
-                      &#8217;
+                      &#34;
                     </span>{" "}
                   </QuoteText>
                 </div>
@@ -104,11 +104,11 @@ class QuoteMob extends React.Component {
                 <div className="row-mob">
                   <QuoteText>
                     <span style={{ color: "white", padding: "0px 5px" }}>
-                      &#8216;
+                      &#34;
                     </span>
                     Not all those who wander are lost.
                     <span style={{ color: "white", padding: "0px 5px" }}>
-                      &#8217;
+                      &#34;
                     </span>{" "}
                   </QuoteText>
                 </div>

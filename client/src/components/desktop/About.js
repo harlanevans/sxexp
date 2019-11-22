@@ -8,9 +8,9 @@ import VanImageTwo from "../../assets/images/NiceVanPic.jpg";
 const About = () => {
   return (
     <div>
-      <div className="comp-cont">
+      <div className="comp-cont-pages">
         <Fade duration={2000} top>
-          <TitleCont>
+          <TitleCont style={{padding: "2em 0em 2em"}}>
             <Title>Dr. Van C Evans</Title>
           </TitleCont>
         </Fade>
