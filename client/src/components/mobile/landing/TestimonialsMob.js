@@ -9,12 +9,12 @@ const TestimonialsMob = () => {
       </TitleCont>
       <TextCont>
         <TextWhite>
-          <span>&#34;</span>{" "}…Once again we want to express our appreciation for
+          <span className='quotations'>&#34;</span>{" "}…Once again we want to express our appreciation for
           the most sensitive, well informed, organized and best guide we have
-          ever had—and we’ve had a few.{" "}<span>&#34;</span>
+          ever had—and we’ve had a few.{" "}<span className='quotations'>&#34;</span>
         </TextWhite>
       </TextCont>
-      <QuoteAuth>—Ardeth Kapp, Located in Perú</QuoteAuth>
+      <QuoteAuth>—Ardeth Kapp</QuoteAuth>
     </TanBackground>
   );
 }

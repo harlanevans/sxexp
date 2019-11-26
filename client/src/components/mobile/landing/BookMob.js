@@ -4,6 +4,7 @@ import {
   TitleCont,
   Text,
   TextCont,
+  ButtonContCol,
   ButtonCont,
   Button
 } from "../../styles/MobStyles";
@@ -37,11 +38,26 @@ const BookMob = () => {
       </TextCont>
     </Fade>
     <Fade duration={2000}>
-      <ButtonCont>
-        <Link to="/book">
-          <Button>Order Book</Button>
-        </Link>
-      </ButtonCont>
+      <ButtonContCol>
+        <ButtonCont>
+
+            <a href="https://www.amazon.com/gp/product/1734276800/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+              <Button className="button" style={{ margin: "0em 1em" }}>
+                Order Book
+            </Button>
+            </a>
+              </ButtonCont>
+              <ButtonCont>
+            <Link to="/book">
+              <Button className="button" style={{ margin: "0em 1em" }}>
+                More Information
+            </Button>
+            </Link>
+              </ButtonCont>
+      </ButtonContCol>
     </Fade>
     </div>
   );

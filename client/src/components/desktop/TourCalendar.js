@@ -34,7 +34,6 @@
 
 
 import React, { useState, useEffect } from "react";
-import "react-big-calendar/lib/css/react-big-calendar.css";
 import { Calendar, momentLocalizer } from "react-big-calendar";
 import moment from "moment";
 import { makeStyles } from "@material-ui/core/styles";
@@ -45,14 +44,14 @@ import { Title, TitleCont, TextCont, Text } from "../styles/Styles";
 import { Fade } from "react-reveal";
 import Hat from '../../assets/images/Hat.jpg';
 import Footer from './Footer';
+import "../../../node_modules/react-big-calendar/lib/css/react-big-calendar.css"
 
 const useStyles = makeStyles(theme => ({
   paper: {
     padding: "8rem",
   },
   calendar: {
-    minHeight: "60rem",
-    color: 'blue'
+    minHeight: "50rem",
   }
 }));
 
@@ -85,31 +84,31 @@ const TourCalendar = props => {
           className={classes.calendar}
           selectable
           localizer={localizer}
-          views={{ month: true }}
+          views={{ month: true, }}
           events={events}
           startAccessor='start_date'
           endAccessor='end_date'
           titleAccessor="location"
           defaultView="month"
           showMultiDayTimes
-          eventPropGetter={(event, start, end, isSelected) => {
-            let newStyle = {
-              backgroundColor: "#6E323A",
-              color: 'white',
-              borderRadius: "0px",
-              border: "none",
-              fontFamily: '"Amiri", serif',
-              fontSize: '1.25em',
-              padding: '.5em',
-              letterSpacing: '3px',
+          // eventPropGetter={(event, start, end, isSelected) => {
+          //   let newStyle = {
+          //     backgroundColor: "black",
+          //     color: 'black',
+          //     borderRadius: "0px",
+          //     border: "none",
+          //     fontFamily: '"Amiri", serif',
+          //     fontSize: '1.25em',
+          //     padding: '.5em',
+          //     letterSpacing: '3px',
       
-                  };
+          //         };
       
-            return {
-              className: "",
-              style: newStyle
-            };
-          }}
+          //   return {
+          //     className: "",
+          //     style: newStyle
+          //   };
+          // }}
         />
       </Paper>
       <Footer />

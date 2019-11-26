@@ -10,7 +10,7 @@ body {
 }
 
 a {
-  color: white !important;
+  color: white;
 }
 
 a:hover,
@@ -120,6 +120,7 @@ a:active {
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  min-width: 100vw;
   /* height: 10vh; */
   background-color: black;
   padding: 2em;
@@ -138,7 +139,7 @@ a:active {
   flex-direction: row;
   justify-content: flex-start;
   width: 100%;
-  flex: 40%; 
+  flex: 40%;
 }
 
 .nav-logo {
@@ -433,7 +434,7 @@ a.human-link:hover {
   transition: .25s;
 }
 
-span {
+span.quotations {
   color: white;
   padding: 0;
   margin: 0;
@@ -445,7 +446,20 @@ span.human-stat {
   color: green !important;
 }
 
+/*? ------------------------- Calendar ------------------------- */
+.rbc-today {
+  background-color: #6e323ab0 !important;
+}
 
+.rbc-toolbar-label {
+  font-size: 2em;
+  padding: 1em;
+}
+
+.rbc-calendar * {
+font-family: 'Amiri', serif;
+
+}
 /*? ------------------------- Contact US ------------------------- */
 
 

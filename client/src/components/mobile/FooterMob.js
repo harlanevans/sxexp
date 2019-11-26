@@ -25,8 +25,8 @@ const FooterMob = () => {
 
               <div className='footer-row'>
                   <FooterText>
-                      <a href="mailto: van@southerncrossexp.com" >
-                          van@southerncrossexp.com
+                      <a href="mailto: van@genhu.com" style={{textDecoration: "underline"}} >
+                          Email Us
             </a>
                   </FooterText>
               </div>

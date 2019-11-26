@@ -21,9 +21,10 @@ class Quote extends React.Component {
                 <div className="col">
                   <div className="row padding">
                     <QuoteText>
-                      <span>&#8216;</span>Man cannot discover new oceans unless
-                      he has the courage to lose sight of the shore.
-                      <span>&#8217;</span>{" "}
+                      <span className="quotations">&#34;</span>Man cannot
+                      discover new oceans unless he has the courage to lose
+                      sight of the shore.
+                      <span className="quotations">&#34;;</span>{" "}
                     </QuoteText>
                   </div>
                   <div className="row">
@@ -39,9 +40,9 @@ class Quote extends React.Component {
                 <div className="col">
                   <div className="row padding">
                     <QuoteText>
-                      <span>&#8216;</span>Travel makes one modest. You see what
-                      a tiny place you occupy in the world.
-                      <span>&#8217;</span>{" "}
+                      <span className="quotations">&#34;</span>Travel makes one
+                      modest. You see what a tiny place you occupy in the world.
+                      <span className="quotations">&#34;</span>{" "}
                     </QuoteText>
                   </div>
                   <div className="row">
@@ -57,9 +58,9 @@ class Quote extends React.Component {
                 <div className="col">
                   <div className="row padding">
                     <QuoteText>
-                      <span>&#8216;</span>The world is a book and those who do
-                      not travel read only one page.
-                      <span>&#8217;</span>{" "}
+                      <span className="quotations">&#34;</span>The world is a
+                      book and those who do not travel read only one page.
+                      <span className="quotations">&#34;</span>{" "}
                     </QuoteText>
                   </div>
                   <div className="row">
@@ -75,9 +76,9 @@ class Quote extends React.Component {
                 <div className="col">
                   <div className="row padding">
                     <QuoteText>
-                      <span>&#8216;</span>A journey of a thousand miles must
-                      begin with a single step.
-                      <span>&#8217;</span>{" "}
+                      <span className="quotations">&#34;</span>A journey of a
+                      thousand miles must begin with a single step.
+                      <span className="quotations">&#34;</span>{" "}
                     </QuoteText>
                   </div>
                   <div className="row">
@@ -93,8 +94,9 @@ class Quote extends React.Component {
                 <div className="col">
                   <div className="row padding">
                     <QuoteText>
-                      <span>&#8216;</span>Not all those who wander are lost.
-                      <span>&#8217;</span>{" "}
+                      <span className="quotations">&#34;</span>Not all those who
+                      wander are lost.
+                      <span className="quotations">&#34;</span>{" "}
                     </QuoteText>
                   </div>
                   <div className="row">

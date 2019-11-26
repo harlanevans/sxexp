@@ -114,6 +114,14 @@ export const ButtonCont = styled.div`
   padding: 1em;
 `;
 
+export const ButtonContCol = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 1em;
+`;
+
 export const QuoteAuth = styled.h3`
   font-family: "Amiri", serif;
   text-decoration: italics;

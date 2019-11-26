@@ -11,7 +11,7 @@ const TripsLMob = () => {
       <TextCont>
         <Text>
           No one is more qualified to take you on a tour of Peru than Southern
-          Cross Expeditions. After more than 20 years, we have taken more than
+          Cross Expeditions. After more than 22 years, we have taken more than
           600 persons on archaeological, humanitarian, and tourist expeditions
           to Perú, Bolivia, Ecuador, and Colombia.
         </Text>
@@ -38,8 +38,8 @@ const TripsLMob = () => {
       <TextCont style={{paddingTop: '1em'}}>
         <Text>
           We do custom tours for groups of 10 or more persons. Call 801-859-1033
-          or email <a href="mailto: van@southerncrossexp.com" className="email">
-            van@southerncrossexp.com
+          or <a href="mailto: van@genhu.com">
+            email us
             </a>
             {" "}for more information.
         </Text>

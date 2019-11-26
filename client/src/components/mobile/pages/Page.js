@@ -14,7 +14,7 @@ const Page = () => {
     <ScrollToTop>
       <Welcome />
       <Women />
-      <Lizard />
+      {/* <Lizard /> */}
       <Prayer />
     </ScrollToTop>
     </div>

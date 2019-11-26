@@ -82,8 +82,8 @@ class Contact extends React.Component {
                 </div>
                 <div className="inside-row">
                   <ContactText>
-                    <a href="mailto:van@southerncrossexp.com" className="email">
-                      van@southerncrossexp.com
+                    <a href="mailto:van@genhu.com">
+                      Email Us!
                     </a>
                   </ContactText>
                 </div>

@@ -19,7 +19,7 @@ const Human = () => {
         </div>
         </Fade>
         <Fade duration={2000} delay={500}>
-        <div className="row">
+        <div className="row" style={{padding: "2em 0em"}}>
           <TextCont>
             <Text>
               Dr. Evans is also the founder of{" "}
