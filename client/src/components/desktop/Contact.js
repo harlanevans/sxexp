@@ -82,7 +82,7 @@ class Contact extends React.Component {
                 </div>
                 <div className="inside-row">
                   <ContactText>
-                    <a href="mailto:van@genhu.com">
+                      <a href="mailto:van@genhu.com" style={{ color: "#007bff"}}>
                       Email Us!
                     </a>
                   </ContactText>

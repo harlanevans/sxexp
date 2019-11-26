@@ -23,7 +23,7 @@ const Book = () => {
     <div>
       <div className="comp-cont-pages" >
         <Fade duration={2000} top>
-          <TitleCont style={{ padding: "0em 0em 2em" }}>
+          <TitleCont style={{ padding: "2em 0em 2em" }}>
             <Title>The House of the Lord</Title>
           </TitleCont>
         </Fade>
