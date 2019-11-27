@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom'
 import { Fade } from 'react-reveal';
 import { Title, TitleCont, TextCont, Text, Button, ButtonCont } from "../../styles/Styles";
-import BookCover from '../../../assets/images/Bookcover.jpg';
+import BookCover from '../../../assets/book_images/Bookcover.jpg';
 
 const BookLanding = () => {
   return (

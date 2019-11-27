@@ -2,11 +2,11 @@ import React from "react";
 
 import Footer from "./Footer";
 import { Fade } from "react-reveal";
-import Raqchi from "../../assets/images/Raqchi.jpg";
-import Condor from "../../assets/images/condorman.png";
-import Bookcover from "../../assets/images/Bookcover.jpg";
-import Kuti from "../../assets/images/SignofKuti.jpg";
-import Apron from "../../assets/images/Forrdham.jpg";
+import Raqchi from "../../assets/book_images/45Raqchi.jpeg";
+import Condor from "../../assets/book_images/37condorman.png";
+import Bookcover from "../../assets/book_images/Bookcover.jpg";
+import Kuti from "../../assets/book_images/49Kuti.jpg";
+import Apron from "../../assets/book_images/20Forrdhamapron.jpeg";
 
 import {
   Title,
@@ -21,12 +21,12 @@ import {
 const Book = () => {
   return (
     <div>
-      <div className="comp-cont-pages" >
-        <Fade duration={2000} top>
-          <TitleCont style={{ padding: "2em 0em 2em" }}>
-            <Title>The House of the Lord</Title>
-          </TitleCont>
-        </Fade>
+      <div className="comp-cont-pages">
+      <Fade duration={2000} top>
+        <TitleCont style={{ padding: "2em 0em 2em" }}>
+          <Title>The House of the Lord</Title>
+        </TitleCont>
+      </Fade>
         {/* <Fade duration={2000} delay={750}>
           <div className="row img-cont">
             <img

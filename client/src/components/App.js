@@ -9,7 +9,9 @@ import Nav from "./desktop/Nav";
 import LandingPage from "./desktop/landing/LandingPage";
 import Human from "./desktop/Human";
 import Contact from "./desktop/Contact";
+
 import Book from "./desktop/Book";
+import NewBook from './desktop/NewBook';
 import About from "./desktop/About";
 import TourCalendar from "./desktop/TourCalendar";
 import NoMatch from "./desktop/NoMatch";
@@ -81,7 +83,8 @@ class App extends React.Component {
             <Switch>
               <Route exact path="/" component={LandingPage} />
               <Route exact path="/tour-dates" component={TourCalendar} />
-              <Route exact path="/book" component={Book} />
+              {/* <Route exact path="/book" component={Book} /> */}
+              <Route exact path="/book" component={NewBook} />
               <Route exact path="/contact-us" component={Contact} />
               <Route exact path="/about-us" component={About} />
               <Route exact path="/humanitarian-work" component={Human} />

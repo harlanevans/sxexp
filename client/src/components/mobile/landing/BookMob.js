@@ -10,7 +10,7 @@ import {
 } from "../../styles/MobStyles";
 import { Fade } from "react-reveal";
 import { Link } from 'react-router-dom';
-import BookCover from '../../../assets/images/Bookcover.jpg';
+import BookCover from '../../../assets/book_images/Bookcover.jpg';
 
 const BookMob = () => {
   return (
