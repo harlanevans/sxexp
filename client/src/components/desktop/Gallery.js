@@ -1,12 +1,12 @@
 import React from "react";
 import {
-  Title,
-  TitleCont,
-  TextCont,
-  Text,
+  // Title,
+  // TitleCont,
+  // TextCont,
+  // Text,
   PictureText,
-  ButtonCont,
-  Button
+  // ButtonCont,
+  // Button
 } from "../styles/Styles";
 import { Fade } from "react-reveal";
 

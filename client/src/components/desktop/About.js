@@ -10,8 +10,8 @@ const About = () => {
     <div>
       <div className="comp-cont-pages">
         <Fade duration={2000} top>
-          <TitleCont style={{padding: "2em 0em 2em"}}>
-            <Title>Dr. Van C Evans</Title>
+          <TitleCont style={{ padding: "2em 0em 2em" }}>
+            <Title style={{fontSize: "2em"}}>Your Tour Leader </Title>
           </TitleCont>
         </Fade>
         <Fade duration={2000} delay={500}>
@@ -22,25 +22,33 @@ const About = () => {
                   display: "flex",
                   flexDirection: "column",
                   justifyContent: "center",
-                  lineHeight: "3em"
+                  lineHeight: "1.5em"
                 }}
-                >
-                Van served an LDS church mission in Peru (’79–’81) and is
-                founder of Southern Cross Expeditions. He has led numerous
-                adventure, humanitarian, and archaeological expeditions (he
-                remembers those good ol’Indiana Jones days fondly) to Peru,
-                Colombia, Ecuador, and Bolivia since 1998. He has been to every
-                country in the Americas except for four and has been to Peru
-                more than 70 times. He speaks Spanish, Portuguese, and some
-                Quechua.
+              >
+                Van C. Evans served a church mission in Peru (’79–’81) where he
+                learned Spanish and some Quechua. From 2000 - 2006 he owned and
+                operated an eco-tourist resort in the Peruvian Amazon. He has
+                been to Perú more than 75 times and has led numerous expeditions
+                and tours to Peru, Colombia, Ecuador, and Bolivia since 1998. He
+                has Master's degrees from the University of Utah and University
+                of Pennsylvania. He was trained as a research sociologist at
+                Indiana University–Purdue University, where he received his
+                doctorate. He is the author of Willka Wasin Wiraqocha — The
+                House of the Lord. He is also the founder of Generations
+                Humanitarian, a nonprofit that builds and operates orphanages
+                and drop-in centers for street children in Latin America.
               </TextWhite>
             </div>
             <div className="col-two row-in-col">
-              <img src={VanImageOne} className="van-img-one" alt='van with man'/>
+              <img
+                src={VanImageOne}
+                className="van-img-one"
+                alt="van with man"
+              />
             </div>
           </div>
         </Fade>
-        <Fade duration={2000} delay={500}>
+        {/* <Fade duration={2000} delay={500}>
           <div className="main-row-two">
             <div className="col-two row-in-col">
               <img src={VanImageTwo} className="van-img-two" alt='professional van'/>
@@ -64,7 +72,7 @@ const About = () => {
               </TextWhite>
             </div>
           </div>
-        </Fade>
+        </Fade> */}
       </div>
       <Footer />
     </div>

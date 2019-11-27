@@ -4,7 +4,7 @@ import {
   TitleCont,
   TextCont,
   Text,
-  PictureText,
+  // PictureText,
   ButtonCont,
   Button
 } from "../styles/Styles";
@@ -33,6 +33,7 @@ const NewBook = () => {
             </Text>
           </TextCont>
         </Fade>
+        <Fade duration={2000} delay={500}>
         <Text>
           <div style={style.parentRow}>
             <div style={style.columnHalf}>
@@ -70,6 +71,7 @@ const NewBook = () => {
             </div>
           </div>
         </Text>
+        </Fade>
         <Fade duration={2000} delay={500}>
           <TextCont>
             <Text>

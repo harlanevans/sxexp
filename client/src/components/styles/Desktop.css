@@ -367,7 +367,7 @@ a:active {
 
 .col-one-top {
   display: flex;
-  flex: 60%;
+  flex: 50%;
   padding: 0em 2em;
   background-color: #6E323A;
   border-radius: 3px;
@@ -385,7 +385,7 @@ a:active {
 
 .col-two {
   display: flex;
-  flex: 40%;
+  flex: 50%;
 }
 
 .row-in-col {
@@ -399,7 +399,7 @@ a:active {
 .van-img-one,
 .van-img-two {
   /* margin-left: 5em; */
-  width: 100%;
+  width: 50%;
   margin: 0em 2em;
   height: 100%;
   border-radius: 2px;

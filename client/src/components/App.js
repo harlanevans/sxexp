@@ -10,10 +10,11 @@ import LandingPage from "./desktop/landing/LandingPage";
 import Human from "./desktop/Human";
 import Contact from "./desktop/Contact";
 
-import Book from "./desktop/Book";
+// import Book from "./desktop/Book";
+// import TourCalendar from "./desktop/TourCalendar";
 import NewBook from './desktop/NewBook';
 import About from "./desktop/About";
-import TourCalendar from "./desktop/TourCalendar";
+import TourDates from "./desktop/TourDates";
 import NoMatch from "./desktop/NoMatch";
 
 // ! NAV IMPORTS
@@ -82,7 +83,8 @@ class App extends React.Component {
           <ScrollToTop>
             <Switch>
               <Route exact path="/" component={LandingPage} />
-              <Route exact path="/tour-dates" component={TourCalendar} />
+              <Route exact path="/tour-dates" component={TourDates} />
+              {/* <Route exact path="/tour-dates" component={TourCalendar} /> */}
               {/* <Route exact path="/book" component={Book} /> */}
               <Route exact path="/book" component={NewBook} />
               <Route exact path="/contact-us" component={Contact} />
