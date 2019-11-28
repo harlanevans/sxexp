@@ -1,6 +1,9 @@
 {
   "name": "southern_cross_exp",
   "version": "1.0.0",
+  "engines": {
+    "node": "11.x"
+  },
   "description": "This README would normally document whatever steps are necessary to get the application up and running.",
   "main": "index.js",
   "directories": {
