@@ -17,7 +17,7 @@ import IncaEmpireMapwithtitle from "../../assets/book_images/04IncaEmpireMapwith
 import SacredVestments from "../../assets/book_images/10SacredVestments.png";
 
 import church from "../../assets/book_images/11church3Bishopric.jpeg";
-import Mochica from "../../assets/book_images/12Mochica ML000666aPeríodoIntermedioTemprano(200AC-600DC).jpg";
+import Mochica from "../../assets/book_images/12Mochica.jpg";
 import Mitre from "../../assets/book_images/13MITRE ML001958a.jpg";
 
 import ML from "../../assets/book_images/14ML005523a.jpg";
