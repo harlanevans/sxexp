@@ -22,7 +22,7 @@ const TripsLanding = () => {
             Evans, the author of “The House of the Lord” and the only one who
             can take you inside the world of the Andean shaman and their ancient
             religion. Walk where Jesus walked. Dr. Evans will take you to places
-            not one in 5000 tourists get to see.
+            not one in a thousand tourists get to see
           </Text>
         </TextCont>
       </Fade>
@@ -49,9 +49,9 @@ const TripsLanding = () => {
         </TextCont>
         <TextCont style={{ padding: "0" }}>
           <Text style={{ padding: "0" }}>
-            Call 801-859-1033 or email{" "}
-            <a href="mailto: van@southerncrossexp.com" className="email">
-              van@southerncrossexp.com
+            Call 801-859-1033 or{" "}
+            <a href="mailto: van@genhu.org" style={{ color: "#007bff" }}>
+              email us
             </a>{" "}
             for more information.
           </Text>

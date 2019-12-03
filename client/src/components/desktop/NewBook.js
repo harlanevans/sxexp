@@ -20,16 +20,16 @@ const NewBook = () => {
     <div>
       <div className="comp-cont-pages">
         <Fade duration={2000} top>
-          <TitleCont style={{ padding: "2em 0em 2em" }}>
+          <TitleCont style={{ padding: "2em 0em 2em" }}> 
             <Title>The House of the Lord</Title>
           </TitleCont>
         </Fade>
         <Fade duration={2000} delay={500}>
           <TextCont>
             <Text>
-              Around 1598, an indigenous priest born in Cusco named Francisco de
-              Ávila wrote what is known today as "The Huarochirí Manuscript." In
-              it he writes:
+                Around 1598, an indigenous priest born in Cusco named Francisco de
+                Ávila wrote what is known today as "The Huarochirí Manuscript." In
+                it he writes:
             </Text>
           </TextCont>
         </Fade>

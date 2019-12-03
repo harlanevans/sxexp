@@ -23,6 +23,7 @@ import Modal from "./mobile/Modal";
 
 import LandingMob from "./mobile/LandingMob";
 import BookOrderMob from "./mobile/BookOrderMob";
+import NewBookMob from './mobile/NewBookMob';
 import HumanMobile from "./mobile/HumanMobile";
 import ContactMobile from "./mobile/ContactMobile";
 import AboutMobile from "./mobile/AboutMobile";
@@ -67,7 +68,8 @@ class App extends React.Component {
             <Switch>
               <Route exact path="/" component={LandingMob} />
               <Route exact path="/tour-dates" component={CalendarMobile} />
-              <Route exact path="/book" component={BookOrderMob} />
+              {/* <Route exact path="/book" component={BookOrderMob} /> */}
+              <Route exact path="/book" component={NewBookMob} />
               <Route exact path="/contact-us" component={ContactMobile} />
               <Route exact path="/about-us" component={AboutMobile} />
               <Route exact path="/humanitarian-work" component={HumanMobile} />

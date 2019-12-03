@@ -28,7 +28,7 @@ const BookLanding = () => {
           <div className="book-col-two">
             <div className="book-text-cont">
               <Text>
-                Released on November 20, 2019, this is the only book of its kind
+                Released in November, 2019, this is the only book of its kind
                 and is the culmination of 22 years of work and research in Perú.
                 Jesus Christ visited the people of South America at least once
                 at some point in time after His resurrection and prior to the

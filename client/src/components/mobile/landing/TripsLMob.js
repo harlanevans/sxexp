@@ -38,7 +38,7 @@ const TripsLMob = () => {
       <TextCont style={{paddingTop: '1em'}}>
         <Text>
           We do custom tours for groups of 10 or more persons. Call 801-859-1033
-          or <a href="mailto: van@genhu.com">
+          or <a href="mailto: van@genhu.org" style={{ color: "#007bff" }}>
             email us
             </a>
             {" "}for more information.

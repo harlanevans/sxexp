@@ -25,7 +25,7 @@ const Footer = () => {
 
         <div className='footer-row'>
           <FooterText>
-            <a href="mailto: van@genhu.com" style={{textDecoration: "underline",}}>
+            <a href="mailto: van@genhu.org" style={{textDecoration: "underline",}}>
               Email Us
             </a>
           </FooterText>

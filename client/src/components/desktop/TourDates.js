@@ -69,7 +69,7 @@ const TourDates = () => {
           </Text>
         </TextCont>
           <Text>We also do custom family tours of 10 or more persons.</Text>
-          <Text><a href="mailto: van@genhu.com">Email us</a> about trip availability.</Text>
+          <Text><a href="mailto: van@genhu.org">Email us</a> about trip availability.</Text>
           <div style={{padding: "2em"}}></div>
       </div>
       <Footer />

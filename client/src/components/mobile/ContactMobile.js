@@ -80,7 +80,7 @@ class ContactMobile extends React.Component {
           </div>
           <div className="contact-row">
             <ContactText>
-              <a href="mailto:van@southerncrossexp.com" className="email">
+              <a href="mailto:van@genhu.org" className="email">
                 van@southerncrossexp.com
                     </a>
             </ContactText>
