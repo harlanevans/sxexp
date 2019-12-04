@@ -1,7 +1,7 @@
 import React from "react";
 import { Title, Text, TitleCont, TextCont } from "../styles/MobStyles";
 import { Fade } from "react-reveal";
-import VanMan from "../../assets/images/VanWithMan220x300.jpg";
+import VanMan from "../../assets/images/VanWithMan.jpeg";
 import NiceVan from '../../assets/images/NiceVanPic.jpg';
 import Footer from "./FooterMob";
 
