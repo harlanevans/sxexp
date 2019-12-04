@@ -9,7 +9,7 @@ const Nav = () => {
     <div className="nav-cont" style={{ boxShadow: "0 2px 5px -2px black" }}>
       <div className="nav-left">
         <NavLink to="/" className="logo-link">
-          <img src={NavLogo} className="nav-logo" alt='sxexp logo' />
+          <img src={NavLogo} className="nav-logo" alt='sxexplogo' />
         </NavLink>
       </div>
       <div className="nav-right">

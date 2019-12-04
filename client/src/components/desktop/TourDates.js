@@ -7,9 +7,12 @@ const TourDates = () => {
   return (
     <div>
       <div className="comp-cont-pages">
+      <Fade duration={2000}>
         <TitleCont>
           <Title>LDS Interest Trip Tour Dates</Title>
         </TitleCont>
+      </Fade>
+      <Fade duration={2000}>
         <TextCont style={{ paddingTop: "2em" }}>
           <Text>
             Join us in 2020 for a custom, luxurious, and expert-led LDS tour.
@@ -22,6 +25,8 @@ const TourDates = () => {
             Holy Path journey of the bearded white god Wiraqocha.
           </Text>
         </TextCont>
+      </Fade>
+      <Fade duration={2000}>
         <div style={style.listCont}>
           <Text style={style.list}>
             <Text style={style.subtitle}>Sample Itinerary</Text>
@@ -50,6 +55,8 @@ const TourDates = () => {
             </ul>
           </Text>
         </div>
+      </Fade>
+      <Fade duration={2000}>
         <TextCont style={{ padding: "1em" }}>
           <Text style={style.subtitle}>Tour Cost: $3180</Text>
         </TextCont>
@@ -71,6 +78,7 @@ const TourDates = () => {
           <Text>We also do custom family tours of 10 or more persons.</Text>
           <Text><a href="mailto: van@genhu.org">Email us</a> about trip availability.</Text>
           <div style={{padding: "2em"}}></div>
+      </Fade>
       </div>
       <Footer />
     </div>

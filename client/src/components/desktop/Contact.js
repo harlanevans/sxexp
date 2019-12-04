@@ -2,14 +2,13 @@ import React from "react";
 import {
   Title,
   TitleCont,
-  ButtonCont,
   Button,
   ContactText
 } from "../styles/Styles";
 import Footer from "./Footer";
 import SubmitModal from './SubmitModal';
 import { Fade } from "react-reveal";
-import Logo from "../../assets/logos/ColorLogo.png";
+// import Logo from "../../assets/logos/ColorLogo.png";
 import axios from "axios";
 
 class Contact extends React.Component {
@@ -52,7 +51,7 @@ class Contact extends React.Component {
         });
   };
   render() {
-    const { name, email, phone, questions, formSubmitted } = this.state;
+    const { name, email, phone, questions } = this.state;
     return (
       
       <div>

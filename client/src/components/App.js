@@ -22,7 +22,7 @@ import NavMobile from "./mobile/NavMobile";
 import Modal from "./mobile/Modal";
 
 import LandingMob from "./mobile/LandingMob";
-import BookOrderMob from "./mobile/BookOrderMob";
+// import BookOrderMob from "./mobile/BookOrderMob";
 import NewBookMob from './mobile/NewBookMob';
 import HumanMobile from "./mobile/HumanMobile";
 import ContactMobile from "./mobile/ContactMobile";
@@ -53,7 +53,7 @@ class App extends React.Component {
   };
 
   render() {
-    const { width, showModal } = this.state;
+    const { width } = this.state;
     const isMobile = width <= 600;
     // the rest is the same...
     if (isMobile) {

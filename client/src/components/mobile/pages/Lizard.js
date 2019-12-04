@@ -2,8 +2,6 @@ import React from "react";
 import {
   Title,
   TitleCont,
-  Text,
-  TextCont,
   SubTitle
 } from "../../styles/MobStyles";
 import { Fade } from "react-reveal";
@@ -19,7 +17,7 @@ const Lizard = () => {
       </Fade>
       <Fade duration={2000}>
         <div className="page-img-cont">
-          <img src={Galapagos} className="page-img" />
+          <img src={Galapagos} className="page-img" alt='lizard'/>
         </div>
       </Fade>
       <Fade duration={2000}>

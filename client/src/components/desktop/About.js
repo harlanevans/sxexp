@@ -1,10 +1,10 @@
 import React from "react";
 import Footer from "./Footer";
-import { Title, TitleCont, Text } from "../styles/Styles";
+import { Title, Text } from "../styles/Styles";
 import { Fade } from "react-reveal";
 import VanImageOne from "../../assets/images/ManVan.jpg";
-import VanImage from "../../assets/images/VanWithMan.jpeg";
-import VanImageTwo from "../../assets/images/NiceVanPic.jpg";
+// import VanImage from "../../assets/images/VanWithMan.jpeg";
+// import VanImageTwo from "../../assets/images/NiceVanPic.jpg";
 
 const About = () => {
   return (

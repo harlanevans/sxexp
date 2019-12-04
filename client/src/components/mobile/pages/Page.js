@@ -2,7 +2,7 @@ import React from "react";
 
 import Welcome from './Welcome';
 import Women from './Women';
-import Lizard from './Lizard';
+// import Lizard from './Lizard';
 import Prayer from './Prayer';
 import ScrollToTop from "../../../ScrollToTop";
 

@@ -86,19 +86,19 @@ const Gallery = () => {
         <div style={style.row}>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={CrabMan} style={style.img} />
+              <img alt="gallery-img"  src={CrabMan} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 03.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={IncaEmpireMapwithtitle} style={style.img} />
+              <img alt="gallery-img"  src={IncaEmpireMapwithtitle} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 04.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={SacredVestments} style={style.img} />
+              <img alt="gallery-img"  src={SacredVestments} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 10.</PictureText>
           </div>
@@ -109,19 +109,19 @@ const Gallery = () => {
         <div style={style.row}>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={church} style={style.img} />
+              <img alt="gallery-img"  src={church} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 11.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={Mochica} style={style.img} />
+              <img alt="gallery-img"  src={Mochica} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 12.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={Mitre} style={style.img} />
+              <img alt="gallery-img"  src={Mitre} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 13.</PictureText>
           </div>
@@ -132,19 +132,19 @@ const Gallery = () => {
         <div style={style.row}>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={ML} style={style.img} />
+              <img alt="gallery-img"  src={ML} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 14.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={FourpointHat} style={style.img} />
+              <img alt="gallery-img"  src={FourpointHat} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 15.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={CrossedX} style={style.img} />
+              <img alt="gallery-img"  src={CrossedX} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 16.</PictureText>
           </div>
@@ -155,19 +155,19 @@ const Gallery = () => {
         <div style={style.row}>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={Tocapus} style={style.img} />
+              <img alt="gallery-img"  src={Tocapus} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 18.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={Forrdham} style={style.img} />
+              <img alt="gallery-img"  src={Forrdham} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 20.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={spiral} style={style.img} />
+              <img alt="gallery-img"  src={spiral} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 21.</PictureText>
           </div>
@@ -178,19 +178,19 @@ const Gallery = () => {
         <div style={style.row}>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={Caral} style={style.img} />
+              <img alt="gallery-img"  src={Caral} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 24.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={CeramicSpiral} style={style.img} />
+              <img alt="gallery-img"  src={CeramicSpiral} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 26.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={ChanChan} style={style.img} />
+              <img alt="gallery-img"  src={ChanChan} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 27.</PictureText>
           </div>
@@ -201,19 +201,19 @@ const Gallery = () => {
         <div style={style.row}>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={Northwall} style={style.img} />
+              <img alt="gallery-img"  src={Northwall} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 32.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={GateofSun} style={style.img} />
+              <img alt="gallery-img"  src={GateofSun} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 33.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={Judah} style={style.img} />
+              <img alt="gallery-img"  src={Judah} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 36.</PictureText>
           </div>
@@ -224,19 +224,19 @@ const Gallery = () => {
         <div style={style.row}>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={Condorman} style={style.img} />
+              <img alt="gallery-img"  src={Condorman} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 37.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={JuancaShield} style={style.img} />
+              <img alt="gallery-img"  src={JuancaShield} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 40.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={Seerstone} style={style.img} />
+              <img alt="gallery-img"  src={Seerstone} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 41.</PictureText>
           </div>
@@ -247,19 +247,19 @@ const Gallery = () => {
         <div style={style.row}>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={Yanantin} style={style.img} />
+              <img alt="gallery-img"  src={Yanantin} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 42.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={Recintos} style={style.img} />
+              <img alt="gallery-img"  src={Recintos} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 43.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={Templeview} style={style.img} />
+              <img alt="gallery-img"  src={Templeview} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 44.</PictureText>
           </div>
@@ -270,19 +270,19 @@ const Gallery = () => {
         <div style={style.row}>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={Raqchi} style={style.img} />
+              <img alt="gallery-img"  src={Raqchi} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 45.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={Ayni} style={style.img} />
+              <img alt="gallery-img"  src={Ayni} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 46.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={Bookcover} style={style.img} />
+              <img alt="gallery-img"  src={Bookcover} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 47.</PictureText>
           </div>
@@ -293,19 +293,19 @@ const Gallery = () => {
         <div style={style.row}>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={KutiSechin} style={style.img} />
+              <img alt="gallery-img"  src={KutiSechin} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 48.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={Juti} style={style.img} />
+              <img alt="gallery-img"  src={Juti} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 48.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={Kuti} style={style.img} />
+              <img alt="gallery-img"  src={Kuti} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 49.</PictureText>
           </div>
@@ -316,19 +316,19 @@ const Gallery = () => {
         <div style={style.row}>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={YanantinSechin} style={style.img} />
+              <img alt="gallery-img"  src={YanantinSechin} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 50.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={Kotosh} style={style.img} />
+              <img alt="gallery-img"  src={Kotosh} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 54.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={Chancay} style={style.img} />
+              <img alt="gallery-img"  src={Chancay} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 55.</PictureText>
           </div>
@@ -339,19 +339,19 @@ const Gallery = () => {
         <div style={style.row}>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={CrossSechin} style={style.img} />
+              <img alt="gallery-img"  src={CrossSechin} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 56.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={CrossedArms} style={style.img} />
+              <img alt="gallery-img"  src={CrossedArms} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 57.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={Challapata} style={style.img} />
+              <img alt="gallery-img"  src={Challapata} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 57.</PictureText>
           </div>
@@ -362,19 +362,19 @@ const Gallery = () => {
         <div style={style.row}>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={WhiteA} style={style.img} />
+              <img alt="gallery-img"  src={WhiteA} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 58.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={WhiteB} style={style.img} />
+              <img alt="gallery-img"  src={WhiteB} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 58.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={WhiteC} style={style.img} />
+              <img alt="gallery-img"  src={WhiteC} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 58.</PictureText>
           </div>
@@ -385,19 +385,19 @@ const Gallery = () => {
         <div style={style.row}>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={Champi} style={style.img} />
+              <img alt="gallery-img"  src={Champi} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 60.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={Chimu} style={style.img} />
+              <img alt="gallery-img"  src={Chimu} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 61.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={Penalty} style={style.img} />
+              <img alt="gallery-img"  src={Penalty} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 62.</PictureText>
           </div>
@@ -408,19 +408,19 @@ const Gallery = () => {
         <div style={style.row}>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={SentinelA} style={style.img} />
+              <img alt="gallery-img"  src={SentinelA} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 63.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={SentinalB} style={style.img} />
+              <img alt="gallery-img"  src={SentinalB} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 63.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={PrayerCircleBowl} style={style.img} />
+              <img alt="gallery-img"  src={PrayerCircleBowl} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 64.</PictureText>
           </div>
@@ -431,19 +431,19 @@ const Gallery = () => {
         <div style={style.row}>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={Huacade} style={style.img} />
+              <img alt="gallery-img"  src={Huacade} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 65.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={Aorphic} style={style.img} />
+              <img alt="gallery-img"  src={Aorphic} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 66.</PictureText>
           </div>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={BetterStuff} style={style.img} />
+              <img alt="gallery-img"  src={BetterStuff} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 67.</PictureText>
           </div>
@@ -454,7 +454,7 @@ const Gallery = () => {
         <div style={style.row}>
           <div style={style.colThird}>
             <div style={style.imgCont}>
-              <img src={Tiwanaka} style={style.img} />
+              <img alt="gallery-img"  src={Tiwanaka} style={style.img} />
             </div>
             <PictureText style={style.picText}>Figure 68.</PictureText>
           </div>

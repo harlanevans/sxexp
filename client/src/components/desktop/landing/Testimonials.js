@@ -1,6 +1,5 @@
 import React from "react";
 import { Fade } from 'react-reveal';
-import { Link } from 'react-router-dom'
 
 import {
   TanBackground,
@@ -8,8 +7,6 @@ import {
   TextCont,
   TitleWhite,
   TitleCont,
-  ButtonWhite,
-  ButtonCont,
   QuoteAuth
 } from "../../styles/Styles";
 

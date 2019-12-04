@@ -38,7 +38,7 @@ const NewBook = () => {
           <div style={style.parentRow}>
             <div style={style.columnHalf}>
               <div style={style.imgCont}>
-                <img src={BookCover} style={style.img} />
+                <img src={BookCover} style={style.img} alt="" />
               </div>
             </div>
 

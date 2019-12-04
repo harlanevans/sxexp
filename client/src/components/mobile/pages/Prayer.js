@@ -2,8 +2,6 @@ import React from "react";
 import {
   Title,
   TitleCont,
-  Text,
-  TextCont,
   SubTitle
 } from "../../styles/MobStyles";
 import { Fade } from "react-reveal";
@@ -19,7 +17,7 @@ const Prayer = () => {
       </Fade>
       <Fade duration={2000}>
         <div className="page-img-cont">
-          <img src={PrayerIMG} className="page-img" />
+          <img src={PrayerIMG} className="page-img" alt="prayer"/>
         </div>
       </Fade>
       <Fade duration={2000}>
