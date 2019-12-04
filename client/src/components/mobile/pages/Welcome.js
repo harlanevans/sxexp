@@ -5,7 +5,7 @@ import {
   SubTitle
 } from "../../styles/MobStyles";
 import { Fade } from "react-reveal";
-import Machu from "../../../assets/images/mapiFAVE.jpg";
+import Machu from "../../../assets/images/Carousel/mapiFAVE.jpg";
 
 const Welcome = () => {
   return (

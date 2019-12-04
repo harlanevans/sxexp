@@ -5,7 +5,7 @@ import {
   SubTitle
 } from "../../styles/MobStyles";
 import { Fade } from "react-reveal";
-import PrayerIMG from "../../../assets/images/Yanantin.jpg"
+import PrayerIMG from "../../../assets/images/Carousel/Yanantin.jpg"
 
 const Prayer = () => {
   return (

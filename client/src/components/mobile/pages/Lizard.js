@@ -5,7 +5,7 @@ import {
   SubTitle
 } from "../../styles/MobStyles";
 import { Fade } from "react-reveal";
-import Galapagos from "../../../assets/images/GalapagosEcuador.jpg";
+import Galapagos from "../../../assets/images/Caoursel/GalapagosEcuador.jpg";
 
 const Lizard = () => {
   return (

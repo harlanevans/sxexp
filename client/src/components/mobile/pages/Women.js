@@ -6,7 +6,7 @@ import {
 } from "../../styles/MobStyles";
 import { Fade } from "react-reveal";
 
-import WomenImg from "../../../assets/images/Uroswomen.jpg";
+import WomenImg from "../../../assets/images/Carousel/Uroswomen.jpg";
 
 const Women = () => {
   return (
