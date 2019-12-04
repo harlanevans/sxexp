@@ -43,6 +43,16 @@ export const PictureText = styled.p`
   line-height: 2em;
 `;
 
+export const GalleryPictureText = styled.p`
+  font-family: "Lato", sans-serif;
+  font-size: 1em;
+  letter-spacing: 1px;
+  line-height: 2em;
+  padding: 0em;
+  text-align: center;
+  color: black;
+`;
+
 export const TextWhite = styled.p`
   font-family: "Lato", sans-serif;
   font-size: 1em;

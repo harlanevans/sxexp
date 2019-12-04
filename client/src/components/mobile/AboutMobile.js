@@ -1,43 +1,55 @@
 import React from "react";
 import { Title, Text, TitleCont, TextCont } from "../styles/MobStyles";
 import { Fade } from "react-reveal";
-import VanMan from "../../assets/images/VanWithMan.jpeg";
-import NiceVan from '../../assets/images/NiceVanPic.jpg';
+import VanMan from "../../assets/images/ManVan.jpg";
+// import NiceVan from '../../assets/images/NiceVanPic.jpg';
 import Footer from "./FooterMob";
 
 const AboutMobile = () => {
   return (
     <div>
-      <div className="new-comp-pad" style={{ paddingTop: "35%", paddingBottom: "15%" }}>
+      <div
+        className="new-comp-pad"
+        style={{ paddingTop: "35%", paddingBottom: "15%" }}
+      >
         <Fade duration={2000}>
           <TitleCont>
-            <Title>Dr. Van C Evans</Title>
+            <Title>Your Tour Guide</Title>
           </TitleCont>
         </Fade>
-        <Fade duration={2000}>
+        {/* <Fade duration={2000}>
           <div className="page-img-cont">
             <img src={NiceVan} className="page-img" alt="van"/>
           </div>
-        </Fade>
+        </Fade> */}
         <Fade duration={2000}>
-          <TextCont style={{paddingTop: '2em'}}>
+          <TextCont style={{ paddingTop: "2em" }}>
             <Text>
-              Van served an LDS church mission in Peru (’79–’81) and is founder
-              of Southern Cross Expeditions. He has led numerous adventure,
-              humanitarian, and archaeological expeditions (he remembers those
-              good ol’Indiana Jones days fondly) to Peru, Colombia, Ecuador, and
-              Bolivia since 1998. He has been to every country in the Americas
-              except for four and has been to Peru more than 70 times. He speaks
-              Spanish, Portuguese, and some Quechua.
+              Van C. Evans served a church mission in Peru (’79–’81) where he
+              learned Spanish and some Quechua. From 2000 - 2006 he owned and
+              operated an eco-tourist resort in the Peruvian Amazon. He has been
+              to Perú more than 75 times and has led numerous expeditions and
+              tours to Peru, Colombia, Ecuador, and Bolivia since 1998. He has
+              Master's degrees from the University of Utah and University of
+              Pennsylvania. He was trained as a research sociologist at Indiana
+              University–Purdue University, where he received his doctorate. He
+              is the author of Willka Wasin Wiraqocha — The House of the Lord.
+              He is also the founder of Generations Humanitarian, a nonprofit
+              that builds and operates orphanages and drop-in centers for street
+              children in Latin America.
             </Text>
           </TextCont>
         </Fade>
         <Fade duration={2000}>
           <div className="page-img-cont">
-            <img src={VanMan} className="page-img" alt="van with man"/>
+            <img
+              src={VanMan}
+              className="page-img van-image"
+              alt="van with man"
+            />
           </div>
         </Fade>
-        <Fade duration={2000}>
+        {/* <Fade duration={2000}>
           <TextCont style={{paddingTop: '2em'}}>
             <Text>
               Dr. Evans is Ivy educated, and is known for doing research in
@@ -49,7 +61,7 @@ const AboutMobile = () => {
               grandchildren.
             </Text>
           </TextCont>
-        </Fade>
+        </Fade> */}
       </div>
       <Footer />
     </div>

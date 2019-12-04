@@ -3,7 +3,7 @@ import { Title, TitleCont, Button, ButtonCont, ContactText } from "../styles/Mob
 import { Fade } from "react-reveal";
 import Footer from "./FooterMob";
 
-import Logo from "../../assets/logos/ColorLogo.png";
+// import Logo from "../../assets/logos/ColorLogo.png";
 
 class ContactMobile extends React.Component {
   state = { name: "", email: "", phone: "", questions: "" };
@@ -66,9 +66,9 @@ class ContactMobile extends React.Component {
             <Button className="but-cont">Submit</Button>
           </ButtonCont>
         </form>
-          <div className="contact-row" style={{ padding: '2em 0em' }}>
+          {/* <div className="contact-row" style={{ padding: '2em 0em' }}>
             <img src={Logo} className="contact-logo" alt='logo' />
-          </div>
+          </div> */}
           <div className="contact-row">
             <ContactText>4110 So. Highland Drive, Ste #333</ContactText>
           </div>
@@ -81,7 +81,7 @@ class ContactMobile extends React.Component {
           <div className="contact-row">
             <ContactText>
               <a href="mailto:van@genhu.org" className="email">
-                van@southerncrossexp.com
+                van@genhu.org
                     </a>
             </ContactText>
           </div>

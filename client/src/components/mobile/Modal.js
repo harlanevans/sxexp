@@ -28,6 +28,11 @@ const Modal = ({ showModal, toggleModal }) => {
         </Link>
       </div>
       <div className='modal-button-cont'>
+        <Link to='/gallery'>
+          <ModalButton onClick={toggleModal}>Gallery</ModalButton>
+        </Link>
+      </div>
+      <div className='modal-button-cont'>
           <Link to='/tour-dates'>
           <ModalButton onClick={toggleModal}>Tour Dates</ModalButton>
         </Link>
