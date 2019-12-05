@@ -17,12 +17,12 @@ const TripsLanding = () => {
           <Text>
             No one is more qualified to take you on a tour of Peru than Southern
             Cross Expeditions. After more than 22 years, we have taken more than
-            600 persons on archaeological, humanitarian, and tourist expeditions
+            600 people on archaeological, humanitarian, and tourist expeditions
             to Perú, Bolivia, Ecuador, and Colombia. Your tour guide is Van
             Evans, the author of “The House of the Lord” and the only one who
             can take you inside the world of the Andean shaman and their ancient
-            religion. Walk where Jesus walked. Dr. Evans will take you to places
-            not one in a thousand tourists get to see
+            religion. Walk where Jesus walked. We will take you to places not
+            one in a thousand tourists get to go.
           </Text>
         </TextCont>
       </Fade>

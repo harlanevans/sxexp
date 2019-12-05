@@ -186,7 +186,7 @@ export const QuoteText = styled.h4`
   font-family: "Lato", sans-serif;
   text-align: center;
   font-weight: 100;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   font-size: 1.25em;
   color: white;
   text-shadow: 4px 2px 5px black;

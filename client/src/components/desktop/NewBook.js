@@ -20,57 +20,61 @@ const NewBook = () => {
     <div>
       <div className="comp-cont-pages">
         <Fade duration={2000} top>
-          <TitleCont style={{ padding: "2em 0em 2em" }}> 
+          <TitleCont style={{ padding: "2em 0em 2em" }}>
             <Title>The House of the Lord</Title>
           </TitleCont>
         </Fade>
         <Fade duration={2000} delay={500}>
           <TextCont>
             <Text>
-                Around 1598, an indigenous priest born in Cusco named Francisco de
-                Ávila wrote what is known today as "The Huarochirí Manuscript." In
-                it he writes:
+              Around 1598, an indigenous priest born in Cusco named Francisco de
+              Ávila wrote what is known today as "The Huarochirí Manuscript." In
+              it he writes:
             </Text>
           </TextCont>
         </Fade>
         <Fade duration={2000} delay={500}>
-        <Text>
-          <div style={style.parentRow}>
-            <div style={style.columnHalf}>
-              <div style={style.imgCont}>
-                <img src={BookCover} style={style.img} alt="" />
+          <Text>
+            <div style={style.parentRow}>
+              <div style={style.columnHalf}>
+                <div style={style.imgCont}>
+                  <img src={BookCover} style={style.img} alt="BookCover" className=''/>
+                </div>
               </div>
-            </div>
 
-            <div style={style.columnHalf}>
-              <div>
-                <div style={style.stanza}>“In ancient times the sun died.</div>
-                <div style={style.stanza}>
-                  {" "}
-                  Because of his death it was night for five days.
-                </div>
-                <div style={style.stanza}>Rocks banged against each other.</div>
-                <div style={style.stanza}>
-                  Mortars and grinding stones began to eat people.
-                </div>
-                <div style={style.stanza}>
-                  Buck llamas started to drive men.
-                </div>
-                <div style={style.stanza}>
-                  Here’s what we Christians think about it:
-                </div>
-                <div style={style.stanza}>
-                  We think these stories tell of the darkness following the
-                  death
-                </div>
-                <div style={style.stanza}>of our Lord Jesus Christ.</div>
-                <div style={style.stanza}>
-                  Maybe that’s what it was” (ch. 4).
+              <div style={style.columnHalf}>
+                <div>
+                  <div style={style.stanza}>
+                    “In ancient times the sun died.
+                  </div>
+                  <div style={style.stanza}>
+                    {" "}
+                    Because of his death it was night for five days.
+                  </div>
+                  <div style={style.stanza}>
+                    Rocks banged against each other.
+                  </div>
+                  <div style={style.stanza}>
+                    Mortars and grinding stones began to eat people.
+                  </div>
+                  <div style={style.stanza}>
+                    Buck llamas started to drive men.
+                  </div>
+                  <div style={style.stanza}>
+                    Here’s what we Christians think about it:
+                  </div>
+                  <div style={style.stanza}>
+                    We think these stories tell of the darkness following the
+                    death
+                  </div>
+                  <div style={style.stanza}>of our Lord Jesus Christ.</div>
+                  <div style={style.stanzaLast}>
+                    Maybe that’s what it was” (ch. 4).
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </Text>
+          </Text>
         </Fade>
         <Fade duration={2000} delay={500}>
           <TextCont>
@@ -132,6 +136,13 @@ const style = {
     fontStyle: "italic",
     fontWeight: "100"
   },
+  stanzaLast: {
+    textAlign: "left",
+    fontStyle: "italic",
+    fontWeight: "100",
+    paddingTop: '2em',
+    lineHeight: '1em'
+  },
   imgCont: {
     width: "100%",
     display: "flex",
@@ -140,7 +151,10 @@ const style = {
     height: "100%"
   },
   img: {
-    width: "60%"
+    width: "25vw",
+    boxShadow: ".5px 1px 4px black",
+    borderRadius: "3px"
+
   },
   line: {
     borderBottom: "solid .5px grey",

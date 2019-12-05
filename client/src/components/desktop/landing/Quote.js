@@ -23,8 +23,8 @@ class Quote extends React.Component {
                     <QuoteText>
                       <span className="quotations">&#34;</span>Man cannot
                       discover new oceans unless he has the courage to lose
-                      sight of the shore.
-                      <span className="quotations">&#34;;</span>{" "}
+                      sight of the shore
+                      <span className="quotations">&#34;</span>{" "}
                     </QuoteText>
                   </div>
                   <div className="row">
@@ -41,7 +41,7 @@ class Quote extends React.Component {
                   <div className="row padding">
                     <QuoteText>
                       <span className="quotations">&#34;</span>Travel makes one
-                      modest. You see what a tiny place you occupy in the world.
+                      modest. You see what a tiny place you occupy in the world
                       <span className="quotations">&#34;</span>{" "}
                     </QuoteText>
                   </div>
@@ -59,7 +59,7 @@ class Quote extends React.Component {
                   <div className="row padding">
                     <QuoteText>
                       <span className="quotations">&#34;</span>The world is a
-                      book and those who do not travel read only one page.
+                      book and those who do not travel read only one page
                       <span className="quotations">&#34;</span>{" "}
                     </QuoteText>
                   </div>
@@ -77,7 +77,7 @@ class Quote extends React.Component {
                   <div className="row padding">
                     <QuoteText>
                       <span className="quotations">&#34;</span>A journey of a
-                      thousand miles must begin with a single step.
+                      thousand miles must begin with a single step
                       <span className="quotations">&#34;</span>{" "}
                     </QuoteText>
                   </div>
@@ -95,7 +95,7 @@ class Quote extends React.Component {
                   <div className="row padding">
                     <QuoteText>
                       <span className="quotations">&#34;</span>Not all those who
-                      wander are lost.
+                      wander are lost
                       <span className="quotations">&#34;</span>{" "}
                     </QuoteText>
                   </div>
