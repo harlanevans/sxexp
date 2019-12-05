@@ -421,7 +421,7 @@ a:active {
 }
 
 a.human-link {
-  color: #B6A67D !important;
+  color: #007bff !important;
   padding: 0;
   margin: 0;
   font-style: oblique;
@@ -429,7 +429,7 @@ a.human-link {
 }
 
 a.human-link:hover {
-  color: #6E323A !important;
+  color: #006ce0 !important;
   transition: .25s;
 }
 
@@ -456,9 +456,10 @@ span.human-stat {
 }
 
 .rbc-calendar * {
-font-family: 'Amiri', serif;
+  font-family: 'Amiri', serif;
 
 }
+
 /*? ------------------------- Contact US ------------------------- */
 
 
