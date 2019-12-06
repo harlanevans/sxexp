@@ -133,9 +133,7 @@ class CarouselMain extends React.Component {
               <CTitle>Choquequirao</CTitle>
               <CSubTitle>
                 {" "}
-                For the hearty and adventurous, join us on an expedition to
-                Choquequirao along the Inca trail. Three days and nights. Six
-                mules. One spectacular experience.
+                Three days and nights. Six mules. One spectacular experience.
               </CSubTitle>
             </Fade>
           </Carousel.Caption>
