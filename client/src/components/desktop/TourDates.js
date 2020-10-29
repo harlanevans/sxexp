@@ -15,7 +15,7 @@ const TourDates = () => {
         <Fade duration={2000}>
           <TextCont style={{ paddingTop: "1em" }}>
             <Text>
-              Join us in 2020 for a custom, luxurious, and expert-led LDS tour.
+              Join us in 2021 for a custom, luxurious, and expert-led LDS tour.
               These tours are limited to 24 persons and include superior trains
               and boats as well as four- and five-star hotels. Your health and
               safety at these altitudes and regions always come first. For 20
@@ -45,13 +45,10 @@ const TourDates = () => {
             <Text style={style.list}>
               <Text style={style.subtitle}>Open Dates</Text>
               <ul>
-                <li>March 7 - 15, 2020</li>
-                <li>April 11 - 19, 2020</li>
-                <li>May 9 - 17, 2020</li>
-                <li>June 6 - 14, 2020</li>
-                <li>July 11 - 19, 2020</li>
-                <li>September 12 - 20, 2020</li>
-                <li>October 10 - 18, 2020</li>
+                <li>April 11 - 18, 2021</li>
+                <li>May 8 - 16, 2021</li>
+                <li>July 10 - 18, 2021</li>
+                <li>October 9 - 17, 2021</li>
               </ul>
             </Text>
           </div>

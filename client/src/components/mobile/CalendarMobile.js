@@ -22,7 +22,7 @@ const CalendarMobile = () => {
         <Fade>
           <TextCont style={{ paddingTop: "2em" }}>
             <Text>
-              Join us in 2020 for a custom, luxurious, and expert-led LDS tour.
+              Join us in 2021 for a custom, luxurious, and expert-led LDS tour.
               These tours are limited to 24 persons and include superior trains
               and boats as well as four- and five-star hotels. Your health and
               safety at these altitudes and regions always come first. For 20
@@ -57,13 +57,10 @@ const CalendarMobile = () => {
             <Text style={style.list}>
               <Text style={style.subtitle}>Open Dates</Text>
               <ul>
-                <li>March 7 - 15, 2020</li>
-                <li>April 11 - 19, 2020</li>
-                <li>May 9 - 17, 2020</li>
-                <li>June 6 - 14, 2020</li>
-                <li>July 11 - 19, 2020</li>
-                <li>September 12 - 20, 2020</li>
-                <li>October 10 - 18, 2020</li>
+                <li>April 11 - 18, 2021</li>
+                <li>May 8 - 16, 2021</li>
+                <li>July 10 - 18, 2021</li>
+                <li>October 9 - 17, 2021</li>
               </ul>
             </Text>
           </div>
@@ -91,19 +88,21 @@ const CalendarMobile = () => {
             </Text>
           </div>
           <div style={style.listCont}>
-          <TextCont>
-            
-            <Text>We also do custom family tours of 10 or more persons.</Text>
-          </TextCont>
+            <TextCont>
+              <Text>We also do custom family tours of 10 or more persons.</Text>
+            </TextCont>
           </div>
           <div style={style.listCont}>
-          <TextCont>
-            <Text>
-                <a href="mailto: van@genhu.org" style={{ textDecoration: "underline" }} >
+            <TextCont>
+              <Text>
+                <a
+                  href="mailto: van@genhu.org"
+                  style={{ textDecoration: "underline" }}
+                >
                   Email us about trip availability.
-            </a>
-            </Text>
-          </TextCont>
+                </a>
+              </Text>
+            </TextCont>
           </div>
         </Fade>
       </div>

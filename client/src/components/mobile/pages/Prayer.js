@@ -22,7 +22,7 @@ const Prayer = () => {
       </Fade>
       <Fade duration={2000}>
         <TitleCont style={{ padding: '.5em 2em' }}>
-          <SubTitle>Join an LDS Interest tour in 2020</SubTitle>
+          <SubTitle>Join an LDS Interest tour in 2021</SubTitle>
         </TitleCont>
       </Fade>
     </div>

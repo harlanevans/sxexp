@@ -12,7 +12,7 @@ const Lizard = () => {
     <div className="page-cont" style={{ padding: '6em 0em', boxShadow: "0 4px 8px -8px black"}}>
       <Fade duration={2000}>
         <TitleCont>
-          <Title>Galápagos & Ecuador 2020</Title>
+          <Title>Galápagos & Ecuador 2021</Title>
         </TitleCont>
       </Fade>
       <Fade duration={2000}>

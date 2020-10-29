@@ -43,7 +43,7 @@ class CarouselMain extends React.Component {
           />
           <Carousel.Caption className="carousel-cap">
             <Fade delay={250} duration={1000}>
-              <CTitle>Join us in 2020</CTitle>
+              <CTitle>Join us in 2021</CTitle>
               <CSubTitle>
                 Our Peruvian expeditions connect you to the people unlike any
                 other offered today
@@ -60,7 +60,7 @@ class CarouselMain extends React.Component {
           <Carousel.Caption className="carousel-cap">
             <Fade delay={250} duration={1000}>
               <CTitle>Ancient Andean Prayer Circle</CTitle>
-              <CSubTitle>Join an LDS Interest tour in 2020</CSubTitle>
+              <CSubTitle>Join an LDS Interest tour in 2021</CSubTitle>
             </Fade>
           </Carousel.Caption>
         </Carousel.Item>
