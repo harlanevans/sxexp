@@ -10,7 +10,7 @@ require 'json'
     # This is the email that the user inputs
     from = Email.new(email: email)
     # This will be email it goes to --> us
-    to = Email.new(email: "van@vancevans.com")
+    to = Email.new(email: "van@genhu.org")
     # to = Email.new(email: "harlanevans5@gmail.com")
     subject = "Someone has contacted you from the Southern Cross site!"
     # Body of message
