@@ -45,10 +45,11 @@ const TourDates = () => {
             <Text style={style.list}>
               <Text style={style.subtitle}>Open Dates</Text>
               <ul>
-                <li>April 11 - 18, 2021</li>
-                <li>May 8 - 16, 2021</li>
                 <li>July 10 - 18, 2021</li>
-                <li>October 9 - 17, 2021</li>
+                <li style={{padding: '0', margin: '0', height: '1em'}}>October 9 - 17, 2021</li>
+                <span style={{ fontSize: '.75em'}}>
+                (in conjunction with Moon's Rare Books and Generations Humanitarian)
+                </span>
               </ul>
             </Text>
           </div>
