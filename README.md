@@ -1,2 +1,2 @@
 # SXEXP
-Southern Cross Expeditions codebase repo
+Southern Cross Expeditions 2021

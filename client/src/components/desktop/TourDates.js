@@ -2,6 +2,9 @@ import React from "react";
 import { Title, TitleCont, TextCont, Text } from "../styles/Styles";
 import { Fade } from "react-reveal";
 import Footer from "./Footer";
+import JulyPDF from '../../assets/pdfs/GenHuSCEXPJuly2021.pdf'
+import AugustPDF from '../../assets/pdfs/GenHuSCEXPLDSSinglesPeruAug2021.pdf'
+import OctPDF from '../../assets/pdfs/GenHuMoonsRareBooksPeruOct2021.pdf'
 
 const TourDates = () => {
   return (
@@ -16,13 +19,14 @@ const TourDates = () => {
           <TextCont style={{ paddingTop: "1em" }}>
             <Text>
               Join us in 2021 for a custom, luxurious, and expert-led LDS tour.
-              These tours are limited to 24 persons and include superior trains
-              and boats as well as four- and five-star hotels. Your health and
-              safety at these altitudes and regions always come first. For 20
-              years, Southern Cross Expeditions has given LDS members an
-              unforgettable, and even spiritual, tour throughout Peru. This LDS
-              Interest tour is not available anywhere else. Come with us along
-              the Holy Path journey of the bearded white god Wiraqocha.
+              Except for the LDS Single’s Tour, these tours are limited to 24
+              persons and include superior trains and boats as well as four- and
+              five-star hotels. Your health and safety at these altitudes and
+              regions always come first. For 20 years, Southern Cross
+              Expeditions has given LDS members an unforgettable, and even
+              spiritual, tour throughout Peru. This LDS Interest tour is not
+              available anywhere else. Come with us along the Holy Path journey
+              of the bearded white god Wiraqocha.
             </Text>
           </TextCont>
         </Fade>
@@ -45,10 +49,51 @@ const TourDates = () => {
             <Text style={style.list}>
               <Text style={style.subtitle}>Open Dates</Text>
               <ul>
-                <li>July 10 - 18, 2021</li>
-                <li style={{padding: '0', margin: '0', height: '1em'}}>October 9 - 17, 2021</li>
-                <span style={{ fontSize: '.75em'}}>
-                (in conjunction with Moon's Rare Books and Generations Humanitarian)
+                <li>
+                  July 10 - 18, 2021
+                  <a
+                    href={JulyPDF}
+                    target="_blank"
+                    style={{
+                      fontSize: ".5em",
+                      paddingLeft: "1em",
+                      color: "blue",
+                    }}
+                  >
+                    Download the application here to learn more.
+                  </a>
+                </li>
+                <li>
+                  August 7 - 15, 2021
+                  <a
+                    href={AugustPDF}
+                    target="_blank"
+                    style={{
+                      fontSize: ".5em",
+                      paddingLeft: "1em",
+                      color: "blue",
+                    }}
+                  >
+                    Download the application here to learn more.
+                  </a>
+                </li>
+                <li style={{ padding: "0", margin: "0", height: "1.5em" }}>
+                  October 9 - 17, 2021
+                  <a
+                    href={OctPDF}
+                    target="_blank"
+                    style={{
+                      fontSize: ".5em",
+                      paddingLeft: "1em",
+                      color: "blue",
+                    }}
+                  >
+                    Download the application here to learn more.
+                  </a>
+                </li>
+                <span style={{ fontSize: ".75em" }}>
+                  (in conjunction with Moon's Rare Books and Generations
+                  Humanitarian)
                 </span>
               </ul>
             </Text>
@@ -75,8 +120,10 @@ const TourDates = () => {
           </TextCont>
           <Text>We also do custom family tours of 10 or more persons.</Text>
           <Text>
-            <a href="mailto: van@genhu.org" style={{ color: '#007bff'}}>Email us</a> about trip
-            availability.
+            <a href="mailto: van@genhu.org" style={{ color: "#007bff" }}>
+              Email us
+            </a>{" "}
+            about trip availability.
           </Text>
           <div style={{ padding: "2em" }}></div>
         </Fade>
