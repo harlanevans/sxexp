@@ -49,52 +49,60 @@ const TourDates = () => {
             <Text style={style.list}>
               <Text style={style.subtitle}>Open Dates</Text>
               <ul>
+                <div style={{padding: '.5em 0'}}>
+
                 <li>
                   July 10 - 18, 2021
+                </li>
                   <a
                     href={JulyPDF}
                     target="_blank"
                     style={{
-                      fontSize: ".5em",
-                      paddingLeft: "1em",
+                      // fontSize: ".5em",
+                      // paddingLeft: "1em",
                       color: "blue",
                     }}
-                  >
+                    >
                     Download the application here to learn more.
                   </a>
-                </li>
+                    </div>
+                <div style={{ padding: '.5em 0' }}>
+                  
                 <li>
-                  August 7 - 15, 2021
+                  August 7 - 15, 2021 (LDS Singles Tour)
+                </li>
                   <a
                     href={AugustPDF}
                     target="_blank"
                     style={{
-                      fontSize: ".5em",
-                      paddingLeft: "1em",
+                      // fontSize: ".5em",
+                      // paddingLeft: "1em",
                       color: "blue",
                     }}
-                  >
+                    >
                     Download the application here to learn more.
                   </a>
-                </li>
+                    </div>
+                    <div style={{ padding: '.5em 0' }}>
                 <li style={{ padding: "0", margin: "0", height: "1.5em" }}>
                   October 9 - 17, 2021
+                </li>
                   <a
                     href={OctPDF}
                     target="_blank"
                     style={{
-                      fontSize: ".5em",
-                      paddingLeft: "1em",
+                      // fontSize: ".5em",
+                      // paddingLeft: "1em",
                       color: "blue",
                     }}
-                  >
+                    >
                     Download the application here to learn more.
                   </a>
-                </li>
-                <span style={{ fontSize: ".75em" }}>
+                <div style={{ fontSize: ".75em" }}>
                   (in conjunction with Moon's Rare Books and Generations
                   Humanitarian)
-                </span>
+                </div>
+                    </div>
               </ul>
             </Text>
           </div>

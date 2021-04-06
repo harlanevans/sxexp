@@ -19,9 +19,9 @@ const CalendarMobile = () => {
             <Title>Tour Dates</Title>
           </TitleCont>
         </Fade>
-        <div className="page-img-cont">
+        {/* <div className="page-img-cont">
           <img src={Hat} className="page-img" alt="adventure hat" />
-        </div>
+        </div> */}
         <Fade>
           <TextCont style={{ paddingTop: "2em" }}>
             <Text>
