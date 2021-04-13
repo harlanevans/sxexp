@@ -111,6 +111,11 @@ const CalendarMobile = () => {
                     Humanitarian)
                   </div>
                 </div>
+                <div style={{ padding: ".5em 0" }}>
+                  <li style={{ padding: "0", margin: "0", height: "1.5em" }}>
+                    December 27, 2021 - January 4, 2022
+                  </li>
+                </div>
               </ul>
             </Text>
           </div>
