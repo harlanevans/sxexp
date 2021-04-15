@@ -4,8 +4,9 @@ import { Fade } from "react-reveal";
 import Footer from "./FooterMob";
 import Hat from "../../assets/images/Hat.jpg";
 import JulyPDF from '../../assets/pdfs/GenHuSCEXPJuly2021.pdf'
-import AugPDF from '../../assets/pdfs/GenHuSCEXPLDSSinglesPeruAug2021.pdf'
+import AugPDF from '../../assets/pdfs/SCEXPLDSinglesPeruapp-Aug2021.pdf'
 import OctPDF from '../../assets/pdfs/GenHuMoonsRareBooksPeruOct2021.pdf'
+import DecPDF from "../../assets/pdfs/SCEXPLDSInterestPeruDec2021.pdf";
 
 const CalendarMobile = () => {
   return (
@@ -65,6 +66,7 @@ const CalendarMobile = () => {
                   <li>July 10 - 18, 2021</li>
                   <a
                     href={JulyPDF}
+                    rel="noopener noreferrer"
                     target="_blank"
                     style={{
                       fontSize: ".75em",
@@ -83,6 +85,7 @@ const CalendarMobile = () => {
                   </li>
                   <a
                     href={AugPDF}
+                    rel="noopener noreferrer"
                     target="_blank"
                     style={{
                       fontSize: ".75em",
@@ -98,6 +101,7 @@ const CalendarMobile = () => {
                   </li>
                   <a
                     href={OctPDF}
+                    rel="noopener noreferrer"
                     target="_blank"
                     style={{
                       fontSize: ".75em",
@@ -115,6 +119,17 @@ const CalendarMobile = () => {
                   <li style={{ padding: "0", margin: "0", height: "1.5em" }}>
                     December 27, 2021 - January 4, 2022
                   </li>
+                  <a
+                    href={DecPDF}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    style={{
+                      fontSize: ".75em",
+                      color: "blue",
+                    }}
+                  >
+                    Download the application here to learn more.
+                  </a>
                 </div>
               </ul>
             </Text>

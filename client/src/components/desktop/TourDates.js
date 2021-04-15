@@ -2,9 +2,10 @@ import React from "react";
 import { Title, TitleCont, TextCont, Text } from "../styles/Styles";
 import { Fade } from "react-reveal";
 import Footer from "./Footer";
-import JulyPDF from '../../assets/pdfs/GenHuSCEXPJuly2021.pdf'
-import AugustPDF from '../../assets/pdfs/GenHuSCEXPLDSSinglesPeruAug2021.pdf'
-import OctPDF from '../../assets/pdfs/GenHuMoonsRareBooksPeruOct2021.pdf'
+import JulyPDF from "../../assets/pdfs/GenHuSCEXPJuly2021.pdf";
+import AugustPDF from "../../assets/pdfs/SCEXPLDSinglesPeruapp-Aug2021.pdf";
+import OctPDF from "../../assets/pdfs/GenHuMoonsRareBooksPeruOct2021.pdf";
+import DecPDF from "../../assets/pdfs/SCEXPLDSInterestPeruDec2021.pdf";
 
 const TourDates = () => {
   return (
@@ -49,12 +50,10 @@ const TourDates = () => {
             <Text style={style.list}>
               <Text style={style.subtitle}>Open Dates</Text>
               <ul>
-                <div style={{padding: '.5em 0'}}>
-
-                <li>
-                  July 10 - 18, 2021
-                </li>
+                <div style={{ padding: ".5em 0" }}>
+                  <li>July 10 - 18, 2021</li>
                   <a
+                    rel="noopener noreferrer"
                     href={JulyPDF}
                     target="_blank"
                     style={{
@@ -62,16 +61,14 @@ const TourDates = () => {
                       // paddingLeft: "1em",
                       color: "blue",
                     }}
-                    >
+                  >
                     Download the application here to learn more.
                   </a>
-                    </div>
-                <div style={{ padding: '.5em 0' }}>
-                  
-                <li>
-                  August 7 - 15, 2021 (LDS Singles Tour)
-                </li>
+                </div>
+                <div style={{ padding: ".5em 0" }}>
+                  <li>August 7 - 15, 2021 (LDS Singles Tour)</li>
                   <a
+                    rel="noopener noreferrer"
                     href={AugustPDF}
                     target="_blank"
                     style={{
@@ -79,35 +76,44 @@ const TourDates = () => {
                       // paddingLeft: "1em",
                       color: "blue",
                     }}
-                    >
+                  >
                     Download the application here to learn more.
                   </a>
-                    </div>
-                    <div style={{ padding: '.5em 0' }}>
-                <li style={{ padding: "0", margin: "0", height: "1.5em" }}>
-                  October 9 - 17, 2021
-                </li>
+                </div>
+                <div style={{ padding: ".5em 0" }}>
+                  <li style={{ padding: "0", margin: "0", height: "1.5em" }}>
+                    October 9 - 17, 2021
+                  </li>
                   <a
+                    rel="noopener noreferrer"
                     href={OctPDF}
                     target="_blank"
                     style={{
-                      // fontSize: ".5em",
-                      // paddingLeft: "1em",
                       color: "blue",
                     }}
-                    >
+                  >
                     Download the application here to learn more.
                   </a>
-                <div style={{ fontSize: ".75em" }}>
-                  (in conjunction with Moon's Rare Books and Generations
-                  Humanitarian)
+                  <div style={{ fontSize: ".75em" }}>
+                    (in conjunction with Moon's Rare Books and Generations
+                    Humanitarian)
+                  </div>
                 </div>
-                    </div>
-                    <div style={{ padding: '.5em 0' }}>
-                <li style={{ padding: "0", margin: "0", height: "1.5em" }}>
-                  December 27, 2021 - January 4, 2022
-                </li>
-                    </div>
+                <div style={{ padding: ".5em 0" }}>
+                  <li style={{ padding: "0", margin: "0", height: "1.5em" }}>
+                    December 27, 2021 - January 4, 2022
+                  </li>
+                  <a
+                    rel="noopener noreferrer"
+                    href={DecPDF}
+                    target="_blank"
+                    style={{
+                      color: "blue",
+                    }}
+                  >
+                    Download the application here to learn more.
+                  </a>
+                </div>
               </ul>
             </Text>
           </div>
@@ -154,10 +160,10 @@ const style = {
     flexDirection: "row",
     justifyContent: "space-evenly",
     width: "100%",
-    padding: "1em 0em 0em"
+    padding: "1em 0em 0em",
   },
   list: {
-    textAlign: "left"
+    textAlign: "left",
   },
   subtitle: {
     fontSize: "1.5em",
@@ -166,5 +172,5 @@ const style = {
     padding: "0em 1em",
     borderRadius: "3px",
     fontFamily: "'Amiri', serif",
-  }
+  },
 };
