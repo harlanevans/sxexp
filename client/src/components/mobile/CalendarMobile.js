@@ -2,11 +2,10 @@ import React from "react";
 import { Title, Text, TitleCont, TextCont } from "../styles/MobStyles";
 import { Fade } from "react-reveal";
 import Footer from "./FooterMob";
-import Hat from "../../assets/images/Hat.jpg";
 import JulyPDF from '../../assets/pdfs/GenHuSCEXPJuly2021.pdf'
-import AugPDF from '../../assets/pdfs/SCEXPLDSinglesPeruapp-Aug2021.pdf'
-import OctPDF from '../../assets/pdfs/GenHuMoonsRareBooksPeruOct2021.pdf'
-import DecPDF from "../../assets/pdfs/SCEXPLDSInterestPeruDec2021.pdf";
+import AugPDF from '../../assets/pdfs/SCEXPLDSSinglesPeruappAug2021.pdf'
+import OctPDF from '../../assets/pdfs/GenHuMoonsRareBooksPeruOct2021app.pdf'
+import DecPDF from "../../assets/pdfs/SCEXPLDSInterestPeruappDec2021.pdf";
 
 const CalendarMobile = () => {
   return (
@@ -138,7 +137,9 @@ const CalendarMobile = () => {
         <Fade duration={2000}>
           <div style={style.listCont}>
             <Text style={style.list}>
-              <Text style={style.subtitle}>Tour costs: $3180</Text>
+              <Text style={style.subtitle}>
+                Tour Cost: $2480 - $2780, depending on tour
+              </Text>
               <TextCont>
                 <Text style={style.listText}>
                   (plus all airfare (US city to Lima RT and Peru domestic

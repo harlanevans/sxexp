@@ -3,9 +3,9 @@ import { Title, TitleCont, TextCont, Text } from "../styles/Styles";
 import { Fade } from "react-reveal";
 import Footer from "./Footer";
 import JulyPDF from "../../assets/pdfs/GenHuSCEXPJuly2021.pdf";
-import AugustPDF from "../../assets/pdfs/SCEXPLDSinglesPeruapp-Aug2021.pdf";
-import OctPDF from "../../assets/pdfs/GenHuMoonsRareBooksPeruOct2021.pdf";
-import DecPDF from "../../assets/pdfs/SCEXPLDSInterestPeruDec2021.pdf";
+import AugustPDF from "../../assets/pdfs/SCEXPLDSSinglesPeruappAug2021.pdf";
+import OctPDF from "../../assets/pdfs/GenHuMoonsRareBooksPeruOct2021app.pdf";
+import DecPDF from "../../assets/pdfs/SCEXPLDSInterestPeruappDec2021.pdf";
 
 const TourDates = () => {
   return (
@@ -79,6 +79,9 @@ const TourDates = () => {
                   >
                     Download the application here to learn more.
                   </a>
+                  <div>
+                  <b>SIGN UP BY MAY 15</b>
+                  </div>
                 </div>
                 <div style={{ padding: ".5em 0" }}>
                   <li style={{ padding: "0", margin: "0", height: "1.5em" }}>
@@ -91,12 +94,15 @@ const TourDates = () => {
                     style={{
                       color: "blue",
                     }}
-                  >
+                    >
                     Download the application here to learn more.
                   </a>
                   <div style={{ fontSize: ".75em" }}>
                     (in conjunction with Moon's Rare Books and Generations
                     Humanitarian)
+                  </div>
+                  <div>
+                  <b>SIGN UP BY JUNE 15</b>
                   </div>
                 </div>
                 <div style={{ padding: ".5em 0" }}>
@@ -110,9 +116,12 @@ const TourDates = () => {
                     style={{
                       color: "blue",
                     }}
-                  >
+                    >
                     Download the application here to learn more.
                   </a>
+                    <div>
+                    <b>SIGN UP BY AUGUST 15</b>
+                    </div>
                 </div>
               </ul>
             </Text>
@@ -120,7 +129,9 @@ const TourDates = () => {
         </Fade>
         <Fade duration={2000}>
           <TextCont style={{ padding: "0em" }}>
-            <Text style={style.subtitle}>Tour Cost: $3180</Text>
+            <Text style={style.subtitle}>
+              Tour Cost: $2480 - $2780, depending on tour
+            </Text>
           </TextCont>
           <TextCont>
             <Text>
