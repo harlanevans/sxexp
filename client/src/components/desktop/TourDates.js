@@ -80,7 +80,7 @@ const TourDates = () => {
                     Download the application here to learn more.
                   </a>
                   <div>
-                  <b>SIGN UP BY MAY 15</b>
+                    <b>SIGN UP BY MAY 15</b>
                   </div>
                 </div>
                 <div style={{ padding: ".5em 0" }}>
@@ -94,7 +94,7 @@ const TourDates = () => {
                     style={{
                       color: "blue",
                     }}
-                    >
+                  >
                     Download the application here to learn more.
                   </a>
                   <div style={{ fontSize: ".75em" }}>
@@ -102,7 +102,7 @@ const TourDates = () => {
                     Humanitarian)
                   </div>
                   <div>
-                  <b>SIGN UP BY JUNE 15</b>
+                    <b>SIGN UP BY JUNE 15</b>
                   </div>
                 </div>
                 <div style={{ padding: ".5em 0" }}>
@@ -116,12 +116,12 @@ const TourDates = () => {
                     style={{
                       color: "blue",
                     }}
-                    >
+                  >
                     Download the application here to learn more.
                   </a>
-                    <div>
+                  <div>
                     <b>SIGN UP BY AUGUST 15</b>
-                    </div>
+                  </div>
                 </div>
               </ul>
             </Text>
@@ -150,7 +150,10 @@ const TourDates = () => {
           </TextCont>
           <Text>We also do custom family tours of 10 or more persons.</Text>
           <Text>
-            <a href="mailto: van@genhu.org" style={{ color: "#007bff" }}>
+            <a
+              href="mailto: vanevansphd@gmail.com"
+              style={{ color: "#007bff" }}
+            >
               Email us
             </a>{" "}
             about trip availability.

@@ -1,5 +1,11 @@
 import React from "react";
-import { Title, TitleCont, Button, ButtonCont, ContactText } from "../styles/MobStyles";
+import {
+  Title,
+  TitleCont,
+  Button,
+  ButtonCont,
+  ContactText,
+} from "../styles/MobStyles";
 import { Fade } from "react-reveal";
 import Footer from "./FooterMob";
 
@@ -8,7 +14,7 @@ import Footer from "./FooterMob";
 class ContactMobile extends React.Component {
   state = { name: "", email: "", phone: "", questions: "" };
 
-  handleChange = e => {
+  handleChange = (e) => {
     const { name, value } = e.target;
     this.setState({ [name]: value });
   };
@@ -16,56 +22,57 @@ class ContactMobile extends React.Component {
     const { name, email, phone, questions } = this.state;
     return (
       <div>
-        <div className="new-comp-pad" style={{ paddingTop: "35%", paddingBottom: "15%" }}>
+        <div
+          className="new-comp-pad"
+          style={{ paddingTop: "35%", paddingBottom: "15%" }}
+        >
           <Fade>
             <TitleCont>
               <Title>Contact Us</Title>
             </TitleCont>
           </Fade>
-        <form className='form-mob'>
-          <label>Name</label>
-          <div className="input-pad">
-            <input
-              name="name"
-              value={name}
-              type="text"
-              onChange={this.handleChange}
-            />
-          </div>
-          <label>Email</label>
-          <div className="input-pad">
-            <input
-              name="email"
-              value={email}
-              type="email"
-              onChange={this.handleChange}
-            />
-          </div>
-          <label>Phone</label>
-          <div className="input-pad">
-            <input
-              name="phone"
-              value={phone}
-              type="phone"
-              onChange={this.handleChange}
+          <form className="form-mob">
+            <label>Name</label>
+            <div className="input-pad">
+              <input
+                name="name"
+                value={name}
+                type="text"
+                onChange={this.handleChange}
               />
-          </div>
-          <label>Questions</label>
-          <div className="input-pad">
-            <textarea 
-              name="questions"
-              value={questions}
-              type="text"
-              onChange={this.handleChange}
-              wrap='hard'
-
-            
-            />
-          </div>
-          <ButtonCont>
-            <Button className="but-cont">Submit</Button>
-          </ButtonCont>
-        </form>
+            </div>
+            <label>Email</label>
+            <div className="input-pad">
+              <input
+                name="email"
+                value={email}
+                type="email"
+                onChange={this.handleChange}
+              />
+            </div>
+            <label>Phone</label>
+            <div className="input-pad">
+              <input
+                name="phone"
+                value={phone}
+                type="phone"
+                onChange={this.handleChange}
+              />
+            </div>
+            <label>Questions</label>
+            <div className="input-pad">
+              <textarea
+                name="questions"
+                value={questions}
+                type="text"
+                onChange={this.handleChange}
+                wrap="hard"
+              />
+            </div>
+            <ButtonCont>
+              <Button className="but-cont">Submit</Button>
+            </ButtonCont>
+          </form>
           {/* <div className="contact-row" style={{ padding: '2em 0em' }}>
             <img src={Logo} className="contact-logo" alt='logo' />
           </div> */}
@@ -80,9 +87,9 @@ class ContactMobile extends React.Component {
           </div>
           <div className="contact-row">
             <ContactText>
-              <a href="mailto:van@genhu.org" className="email">
-                van@genhu.org
-                    </a>
+              <a href="mailto:vanevansphd@gmail.com" className="email">
+                vanevansphd@gmail.com
+              </a>
             </ContactText>
           </div>
         </div>

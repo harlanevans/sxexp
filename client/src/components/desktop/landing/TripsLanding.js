@@ -1,8 +1,15 @@
-import React from 'react';
+import React from "react";
 import { Fade } from "react-reveal";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
-import { Title, TitleCont, Text, TextCont, Button, ButtonCont} from "../../styles/Styles";
+import {
+  Title,
+  TitleCont,
+  Text,
+  TextCont,
+  Button,
+  ButtonCont,
+} from "../../styles/Styles";
 
 const TripsLanding = () => {
   return (
@@ -50,7 +57,10 @@ const TripsLanding = () => {
         <TextCont style={{ padding: "0" }}>
           <Text style={{ padding: "0" }}>
             Call 801-859-1033 or{" "}
-            <a href="mailto: van@genhu.org" style={{ color: "#007bff" }}>
+            <a
+              href="mailto: vanevansphd@gmail.com"
+              style={{ color: "#007bff" }}
+            >
               email us
             </a>{" "}
             for more information.
@@ -59,6 +69,6 @@ const TripsLanding = () => {
       </Fade>
     </div>
   );
-}
+};
 
 export default TripsLanding;

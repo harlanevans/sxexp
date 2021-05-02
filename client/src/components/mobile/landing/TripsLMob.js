@@ -1,6 +1,13 @@
-import React from 'react';
-import { TitleCont, Title, TextCont, Text, Button, ButtonCont } from '../../styles/MobStyles';
-import { Link } from 'react-router-dom';
+import React from "react";
+import {
+  TitleCont,
+  Title,
+  TextCont,
+  Text,
+  Button,
+  ButtonCont,
+} from "../../styles/MobStyles";
+import { Link } from "react-router-dom";
 
 const TripsLMob = () => {
   return (
@@ -35,17 +42,18 @@ const TripsLMob = () => {
           <Button>Tour Dates</Button>
         </Link>
       </ButtonCont>
-      <TextCont style={{paddingTop: '1em'}}>
+      <TextCont style={{ paddingTop: "1em" }}>
         <Text>
           We do custom tours for groups of 10 or more persons. Call 801-859-1033
-          or <a href="mailto: van@genhu.org" style={{ color: "#007bff" }}>
+          or{" "}
+          <a href="mailto: vanevansphd@gmail.com" style={{ color: "#007bff" }}>
             email us
-            </a>
-            {" "}for more information.
+          </a>{" "}
+          for more information.
         </Text>
       </TextCont>
     </div>
   );
-}
+};
 
 export default TripsLMob;

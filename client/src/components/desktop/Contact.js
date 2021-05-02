@@ -1,12 +1,7 @@
 import React from "react";
-import {
-  Title,
-  TitleCont,
-  Button,
-  ContactText
-} from "../styles/Styles";
+import { Title, TitleCont, Button, ContactText } from "../styles/Styles";
 import Footer from "./Footer";
-import SubmitModal from './SubmitModal';
+import SubmitModal from "./SubmitModal";
 import { Fade } from "react-reveal";
 // import Logo from "../../assets/logos/ColorLogo.png";
 import axios from "axios";
@@ -17,48 +12,46 @@ class Contact extends React.Component {
     email: "",
     phone: "",
     questions: "",
-    formSubmitted: false
+    formSubmitted: false,
   };
 
-  handleChange = e => {
+  handleChange = (e) => {
     const { name, value } = e.target;
     this.setState({ [name]: value });
   };
 
   toggleModal = () => {
     this.setState({ formSubmitted: !this.state.formSubmitted });
-  }
+  };
 
   resetValues = () => {
-    this.setState({name: '', email: '', phone: '', questions: ''})
-  }
+    this.setState({ name: "", email: "", phone: "", questions: "" });
+  };
 
-  handleSubmit = e => {
+  handleSubmit = (e) => {
     e.preventDefault();
     const contact = { ...this.state };
     delete contact.formSubmitted;
     axios
       .post("/api/contact", { contact })
-      .then(res => {
+      .then((res) => {
         this.toggleModal();
       })
-      .then(res => {
+      .then((res) => {
         this.resetValues();
       })
-      .catch(res => {
-          console.log(res);
-          alert("Unable to process request")
-        });
+      .catch((res) => {
+        console.log(res);
+        alert("Unable to process request");
+      });
   };
   render() {
     const { name, email, phone, questions } = this.state;
     return (
-      
       <div>
-       
         <div className="comp-cont-pages">
           <Fade duration={2000} top>
-            <TitleCont style={{ padding: "2em 0em 2em" }}> 
+            <TitleCont style={{ padding: "2em 0em 2em" }}>
               <Title>Contact Us Today</Title>
             </TitleCont>
           </Fade>
@@ -66,26 +59,29 @@ class Contact extends React.Component {
           <div className="contact-row">
             <Fade duration={2000} delay={500}>
               <div className="c-col-one-cont">
-              <div className="c-col-one">
-                <div className="inside-row">
-                  <ContactText>Southern Cross Expeditions</ContactText>
-                </div>
-                <div className="inside-row">
-                  <ContactText>4110 So. Highland Drive, Ste #333</ContactText>
-                </div>
-                <div className="inside-row">
-                  <ContactText>Salt Lake City, UT 84124</ContactText>
-                </div>
-                <div className="inside-row">
-                  <ContactText>801-859-1033</ContactText>
-                </div>
-                <div className="inside-row">
-                  <ContactText>
-                      <a href="mailto:van@genhu.org" style={{ color: "#007bff"}}>
-                      Email Us!
-                    </a>
-                  </ContactText>
-                </div>
+                <div className="c-col-one">
+                  <div className="inside-row">
+                    <ContactText>Southern Cross Expeditions</ContactText>
+                  </div>
+                  <div className="inside-row">
+                    <ContactText>4110 So. Highland Drive, Ste #333</ContactText>
+                  </div>
+                  <div className="inside-row">
+                    <ContactText>Salt Lake City, UT 84124</ContactText>
+                  </div>
+                  <div className="inside-row">
+                    <ContactText>801-859-1033</ContactText>
+                  </div>
+                  <div className="inside-row">
+                    <ContactText>
+                      <a
+                        href="mailto:vanevansphd@gmail.com"
+                        style={{ color: "#007bff" }}
+                      >
+                        Email Us!
+                      </a>
+                    </ContactText>
+                  </div>
                 </div>
                 {/* Logo */}
                 {/* <div className="inside-row">
@@ -105,7 +101,7 @@ class Contact extends React.Component {
                         type="text"
                         onChange={this.handleChange}
                         required
-                        />
+                      />
                     </div>
                     <label>Email</label>
                     <div className="input-pad">
@@ -115,7 +111,7 @@ class Contact extends React.Component {
                         type="email"
                         onChange={this.handleChange}
                         required
-                        />
+                      />
                     </div>
                     <label>Phone</label>
                     <div className="input-pad">
@@ -125,7 +121,7 @@ class Contact extends React.Component {
                         type="phone"
                         onChange={this.handleChange}
                         required
-                        />
+                      />
                     </div>
                     <label>Questions</label>
                     <div className="input-pad">
@@ -145,7 +141,10 @@ class Contact extends React.Component {
               </div>
             </Fade>
           </div>
-          <SubmitModal formSubmitted={this.state.formSubmitted} toggleModal={this.toggleModal}/>
+          <SubmitModal
+            formSubmitted={this.state.formSubmitted}
+            toggleModal={this.toggleModal}
+          />
         </div>
         <Footer />
       </div>

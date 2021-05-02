@@ -2,9 +2,9 @@ import React from "react";
 import { Title, Text, TitleCont, TextCont } from "../styles/MobStyles";
 import { Fade } from "react-reveal";
 import Footer from "./FooterMob";
-import JulyPDF from '../../assets/pdfs/GenHuSCEXPJuly2021.pdf'
-import AugPDF from '../../assets/pdfs/SCEXPLDSSinglesPeruappAug2021.pdf'
-import OctPDF from '../../assets/pdfs/GenHuMoonsRareBooksPeruOct2021app.pdf'
+import JulyPDF from "../../assets/pdfs/GenHuSCEXPJuly2021.pdf";
+import AugPDF from "../../assets/pdfs/SCEXPLDSSinglesPeruappAug2021.pdf";
+import OctPDF from "../../assets/pdfs/GenHuMoonsRareBooksPeruOct2021app.pdf";
 import DecPDF from "../../assets/pdfs/SCEXPLDSInterestPeruappDec2021.pdf";
 
 const CalendarMobile = () => {
@@ -167,7 +167,7 @@ const CalendarMobile = () => {
             <TextCont>
               <Text>
                 <a
-                  href="mailto: van@genhu.org"
+                  href="mailto: vanevansphd@gmail.com"
                   style={{ textDecoration: "underline" }}
                 >
                   Email us about trip availability.
@@ -189,7 +189,7 @@ const style = {
     flexDirection: "row",
     justifyContent: "center",
     width: "100%",
-    padding: "0em 1em"
+    padding: "0em 1em",
   },
   list: {
     textAlign: "left",
@@ -209,8 +209,8 @@ const style = {
   },
   listText: {
     width: "110vw",
-    padding: "0"
-  }
+    padding: "0",
+  },
 };
 
 // import React, { useState, useEffect } from "react";
