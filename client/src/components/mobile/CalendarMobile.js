@@ -2,8 +2,8 @@ import React from "react";
 import { Title, Text, TitleCont, TextCont } from "../styles/MobStyles";
 import { Fade } from "react-reveal";
 import Footer from "./FooterMob";
-import JulyPDF from "../../assets/pdfs/GenHuSCEXPJuly2021.pdf";
-import AugPDF from "../../assets/pdfs/SCEXPLDSSinglesPeruappAug2021.pdf";
+// import JulyPDF from "../../assets/pdfs/GenHuSCEXPJuly2021.pdf";
+// import AugPDF from "../../assets/pdfs/SCEXPLDSSinglesPeruappAug2021.pdf";
 import OctPDF from "../../assets/pdfs/GenHuMoonsRareBooksPeruOct2021app.pdf";
 import DecPDF from "../../assets/pdfs/SCEXPLDSInterestPeruappDec2021.pdf";
 
@@ -61,7 +61,7 @@ const CalendarMobile = () => {
             <Text style={style.list}>
               <Text style={style.subtitle}>Open Dates</Text>
               <ul>
-                <div style={{ padding: ".5em 0" }}>
+                {/* <div style={{ padding: ".5em 0" }}>
                   <li>July 10 - 18, 2021</li>
                   <a
                     href={JulyPDF}
@@ -93,7 +93,7 @@ const CalendarMobile = () => {
                   >
                     Download the application here to learn more.
                   </a>
-                </div>
+                </div> */}
                 <div style={{ padding: ".5em 0" }}>
                   <li style={{ padding: "0", margin: "0", height: "1.5em" }}>
                     October 9 - 17, 2021
@@ -113,6 +113,9 @@ const CalendarMobile = () => {
                     (in conjunction with Moon's Rare Books and Generations
                     Humanitarian)
                   </div>
+                  <div>
+                    <b>SIGN UP BY JUNE 15</b>
+                  </div>
                 </div>
                 <div style={{ padding: ".5em 0" }}>
                   <li style={{ padding: "0", margin: "0", height: "1.5em" }}>
@@ -129,6 +132,28 @@ const CalendarMobile = () => {
                   >
                     Download the application here to learn more.
                   </a>
+                  <div>
+                    <b>SIGN UP BY AUGUST 15</b>
+                  </div>
+                </div>
+                <div style={{ padding: ".5em 0" }}>
+                  <li style={{ padding: "0", margin: "0", height: "1.5em" }}>
+                    March 12, 2022 - March 20, 2022
+                  </li>
+                  {/* <a
+                    href={DecPDF}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    style={{
+                      fontSize: ".75em",
+                      color: "blue",
+                    }}
+                  >
+                    Download the application here to learn more.
+                  </a> */}
+                  <div>
+                    <b>SIGN UP BY JANUARY 1</b>
+                  </div>
                 </div>
               </ul>
             </Text>
